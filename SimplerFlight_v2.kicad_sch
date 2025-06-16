@@ -4301,7 +4301,7 @@
 	)
 	(text "USB Mini B\n(Same as Nucleo F401RE)"
 		(exclude_from_sim no)
-		(at 210.566 64.77 0)
+		(at 215.646 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4578,7 +4578,7 @@
 		(uuid "5805c1d3-1e54-4cc5-96a9-01219161ada8")
 	)
 	(no_connect
-		(at 204.47 80.01)
+		(at 209.55 83.82)
 		(uuid "5ea78710-8fa8-4eb6-a2e9-bc8852cfcc92")
 	)
 	(no_connect
@@ -5281,7 +5281,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 77.47) (xy 204.47 77.47)
+			(xy 203.2 81.28) (xy 209.55 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5401,7 +5401,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 74.93) (xy 204.47 74.93)
+			(xy 203.2 78.74) (xy 209.55 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5651,7 +5651,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 72.39) (xy 204.47 72.39)
+			(xy 203.2 76.2) (xy 209.55 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6041,7 +6041,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 82.55) (xy 204.47 82.55)
+			(xy 203.2 86.36) (xy 209.55 86.36)
 		)
 		(stroke
 			(width 0)
@@ -33590,7 +33590,7 @@
 		(uuid "0d44df60-9cc4-4ca7-a7de-01e845a87c7b")
 	)
 	(label "D-"
-		(at 203.2 74.93 180)
+		(at 208.28 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -33620,7 +33620,7 @@
 		(uuid "31706663-43a0-4188-8ea7-bb0a0dab6338")
 	)
 	(label "D+"
-		(at 203.2 77.47 180)
+		(at 208.28 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -33690,7 +33690,7 @@
 		(uuid "923c1f31-0c07-473c-8e8a-75eb6f0950a8")
 	)
 	(label "VBUS"
-		(at 203.2 72.39 180)
+		(at 208.28 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -33700,7 +33700,7 @@
 		(uuid "927d0f83-caae-4f2e-b372-f44bdbc9a06c")
 	)
 	(label "GND"
-		(at 203.2 82.55 180)
+		(at 208.28 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36994,7 +36994,7 @@
 	)
 	(symbol
 		(lib_id "2025-06-16_04-10-11:675031020")
-		(at 214.63 77.47 0)
+		(at 219.71 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37003,7 +37003,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6117135-b67f-4abb-9257-1f3946e2b55a")
 		(property "Reference" "J6"
-			(at 218.44 76.1999 0)
+			(at 223.52 80.0099 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -37012,7 +37012,7 @@
 			)
 		)
 		(property "Value" "675031020"
-			(at 218.44 78.7399 0)
+			(at 223.52 82.5499 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -37021,7 +37021,7 @@
 			)
 		)
 		(property "Footprint" "KiCADv6:CON00317_5_MOL"
-			(at 214.63 77.47 0)
+			(at 219.71 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37031,7 +37031,7 @@
 			)
 		)
 		(property "Datasheet" "675031020"
-			(at 214.63 77.47 0)
+			(at 219.71 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37041,7 +37041,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 214.63 77.47 0)
+			(at 219.71 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
