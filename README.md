@@ -23,7 +23,7 @@
 - Log data to SD
     - Choose SD
 
-## Might be for V3
+## Probably for V3
 - Deliver power from battery
 - Allow USB power delivery when debugging
 - Expand board to integrate run camera controls
