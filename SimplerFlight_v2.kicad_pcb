@@ -103,7 +103,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -179,6 +178,14 @@
 	(net 59 "unconnected-(U2-PB1-Pad27)")
 	(net 60 "unconnected-(U2-PA8-Pad41)")
 	(net 61 "unconnected-(U2-PC3-Pad11)")
+	(net 62 "unconnected-(J1-Shield-Pad6)_1")
+	(net 63 "unconnected-(J1-Shield-Pad6)_2")
+	(net 64 "unconnected-(J1-Shield-Pad6)_3")
+	(net 65 "unconnected-(J6-Pad1)")
+	(net 66 "unconnected-(J6-Pad4)")
+	(net 67 "unconnected-(J6-Pad3)")
+	(net 68 "unconnected-(J6-Pad2)")
+	(net 69 "unconnected-(J6-Pad5)")
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "0a7c42ec-98a1-466d-9c36-c821ae104e0c")
@@ -237,7 +244,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0ba9f43b-f558-471c-a7c8-9f007f0cfd6c")
 		(sheetname "/")
-		(sheetfile "SimplerFlight_v1.kicad_sch")
+		(sheetfile "SimplerFlight_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -440,7 +447,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/cae8e10a-98df-42cb-aae1-3781993709b3")
 		(sheetname "/")
-		(sheetfile "SimplerFlight_v1.kicad_sch")
+		(sheetfile "SimplerFlight_v2.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -542,7 +549,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/85181dec-dd4b-4b7f-bd45-6caf6a304a74")
 		(sheetname "/")
-		(sheetfile "SimplerFlight_v1.kicad_sch")
+		(sheetfile "SimplerFlight_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -744,7 +751,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c3f0d9a8-3b7f-4d8a-9196-f1b335fa7923")
 		(sheetname "/")
-		(sheetfile "SimplerFlight_v1.kicad_sch")
+		(sheetfile "SimplerFlight_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -944,7 +951,7 @@
 		(property ki_fp_filters "LQFP*10x10mm*P0.5mm*")
 		(path "/cc2392d5-301f-43b5-a0b0-db729eefd50d")
 		(sheetname "/")
-		(sheetfile "SimplerFlight_v1.kicad_sch")
+		(sheetfile "SimplerFlight_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -5.11 -5.11)
@@ -2050,7 +2057,7 @@
 		(property ki_fp_filters "SOT?223*TabPin2*")
 		(path "/e284031e-8729-452c-a9ce-553038c1c87a")
 		(sheetname "/")
-		(sheetfile "SimplerFlight_v1.kicad_sch")
+		(sheetfile "SimplerFlight_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.85 3.41)
@@ -2316,7 +2323,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/01b9f931-f501-4617-b41b-25c403eefb57")
 		(sheetname "/")
-		(sheetfile "SimplerFlight_v1.kicad_sch")
+		(sheetfile "SimplerFlight_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -2518,7 +2525,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/fe333f2b-1f34-41b8-8b84-9f8cf482e678")
 		(sheetname "/")
-		(sheetfile "SimplerFlight_v1.kicad_sch")
+		(sheetfile "SimplerFlight_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -2733,7 +2740,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/17e4f529-e2d3-4ecf-aebb-ac2b72c78ae1")
 		(sheetname "/")
-		(sheetfile "SimplerFlight_v1.kicad_sch")
+		(sheetfile "SimplerFlight_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1 -0.96)
@@ -2899,6 +2906,357 @@
 			)
 		)
 	)
+	(footprint "KiCADv6:CON00317_5_MOL"
+		(layer "F.Cu")
+		(uuid "5a131643-c4ae-469b-b6e5-1b717246df58")
+		(at 153.5 78)
+		(tags "675031020 ")
+		(property "Reference" "J6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "d07c6057-4a92-4ee2-af56-82443b7476b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "675031020"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d03d82ef-ce48-45aa-8705-0a62aa79044f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "675031020"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6859e6ca-2551-4543-8cfc-f74d0c97c076")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f3f60e5-8dd4-4125-83a6-d6d15da042b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "CON00317_5_MOL")
+		(path "/e6117135-b67f-4abb-9257-1f3946e2b55a")
+		(sheetname "/")
+		(sheetfile "SimplerFlight_v2.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -5.08 4.23934)
+			(end -5.08 6.028601)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6ba06027-fbd2-4554-bcb9-bb36115d6b13")
+		)
+		(fp_line
+			(start -5.08 6.028601)
+			(end 5.08 6.028601)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dd919523-b8c6-4fb7-9f0d-13dfa37be5c3")
+		)
+		(fp_line
+			(start -2.18694 -3.216999)
+			(end -3.56356 -3.216999)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bb598650-c21e-4802-85d9-738659c1abe5")
+		)
+		(fp_line
+			(start 3.56356 -3.216999)
+			(end 2.18694 -3.216999)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d536c195-8a6b-40ba-8ff3-9d55c02fe81c")
+		)
+		(fp_line
+			(start 5.08 6.028601)
+			(end 5.08 4.23934)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9a57b05b-ee31-4e8c-b108-54256fa0da44")
+		)
+		(fp_circle
+			(center -1.905 -5.08)
+			(end -1.524 -5.08)
+			(stroke
+				(width 0.508)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "d96171d6-8e06-4429-ba5a-2fc8dbc319f8")
+		)
+		(fp_line
+			(start -6.1976 -4.359999)
+			(end -6.1976 6.155601)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7848025c-e390-4ca5-9ee9-8a37272ba2ec")
+		)
+		(fp_line
+			(start -6.1976 6.155601)
+			(end 6.1976 6.155601)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "57c96a56-615d-4a45-a423-06257006156b")
+		)
+		(fp_line
+			(start 6.1976 -4.359999)
+			(end -6.1976 -4.359999)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9995e6c9-1d29-415f-8ef5-d1ea6cc4d5e3")
+		)
+		(fp_line
+			(start 6.1976 6.155601)
+			(end 6.1976 -4.359999)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8ef5cd31-4219-444f-892e-7cd5d0623dad")
+		)
+		(fp_line
+			(start -4.953 -3.089999)
+			(end -4.953 5.901601)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ee6bb086-fcb6-44ed-918e-8442e4635535")
+		)
+		(fp_line
+			(start -4.953 5.901601)
+			(end 4.953 5.901601)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ead9086e-5c13-41a2-99de-32da43b07d35")
+		)
+		(fp_line
+			(start 4.953 -3.089999)
+			(end -4.953 -3.089999)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0c49e2d8-8214-40d8-8a11-2637cbccbaed")
+		)
+		(fp_line
+			(start 4.953 5.901601)
+			(end 4.953 -3.089999)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3a87b4f7-c7f2-4665-916a-7fbfcd33b9a7")
+		)
+		(fp_circle
+			(center -1.6 1.905)
+			(end -1.219 1.905)
+			(stroke
+				(width 0.508)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "484ba128-0073-4a62-8f4d-f92a565e9fe5")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "2eef0264-412b-4ac3-bbf9-c3cba09e4058")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -2.199999 0)
+			(size 0.889 0.889)
+			(drill 0.889)
+			(layers "*.Cu" "*.Mask")
+			(uuid "a4483bce-7049-4a90-89c5-941873f92126")
+		)
+		(pad "" np_thru_hole circle
+			(at 2.199999 0)
+			(size 0.889 0.889)
+			(drill 0.889)
+			(layers "*.Cu" "*.Mask")
+			(uuid "7933a156-8feb-4baf-a803-de356ff93122")
+		)
+		(pad "1" smd rect
+			(at -1.599999 -2.33)
+			(size 0.508 2.2606)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 65 "unconnected-(J6-Pad1)")
+			(pinfunction "1")
+			(pintype "unspecified")
+			(uuid "6f83bd33-dff6-46eb-b111-a32acdcb1136")
+		)
+		(pad "2" smd rect
+			(at -0.800001 -2.33)
+			(size 0.508 2.2606)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 68 "unconnected-(J6-Pad2)")
+			(pinfunction "2")
+			(pintype "unspecified")
+			(uuid "83c3af17-2a5b-432c-abb0-892b42d95f34")
+		)
+		(pad "3" smd rect
+			(at 0 -2.33)
+			(size 0.508 2.2606)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 67 "unconnected-(J6-Pad3)")
+			(pinfunction "3")
+			(pintype "unspecified")
+			(uuid "764614d4-f743-435f-b024-0d0550ee8188")
+		)
+		(pad "4" smd rect
+			(at 0.800001 -2.33)
+			(size 0.508 2.2606)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 66 "unconnected-(J6-Pad4)")
+			(pinfunction "4")
+			(pintype "unspecified")
+			(uuid "70abf759-72a2-46cf-9d88-dc1aa6876912")
+		)
+		(pad "5" smd rect
+			(at 1.599999 -2.33)
+			(size 0.508 2.2606)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 69 "unconnected-(J6-Pad5)")
+			(pinfunction "5")
+			(pintype "power_out")
+			(uuid "c87a7ed6-e086-4809-b764-5ba960e1739b")
+		)
+		(pad "6" smd rect
+			(at -4.925 1.9)
+			(size 2.0574 4.0132)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "2f1dcd6d-f66e-43ee-90f0-ea848df08557")
+		)
+		(pad "7" smd rect
+			(at 4.925 1.9)
+			(size 2.0574 4.0132)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "0fb6ec10-65f7-4366-ade9-06d3d3cba5d4")
+		)
+		(pad "8" smd rect
+			(at -4.925 -2.35)
+			(size 2.0574 3.5052)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "7c2c9b01-f41c-48ee-8415-37b7a65722ea")
+		)
+		(pad "9" smd rect
+			(at 4.925 -2.35)
+			(size 2.0574 3.5052)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "fc00c4af-5764-4ca0-810e-4bb83d24b026")
+		)
+		(zone
+			(net 0)
+			(net_name "")
+			(layer "F.Cu")
+			(uuid "99a4f3c7-9915-47fa-9249-cee69d630b03")
+			(hatch full 0.508)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.254)
+			(filled_areas_thickness no)
+			(keepout
+				(tracks not_allowed)
+				(vias not_allowed)
+				(pads allowed)
+				(copperpour not_allowed)
+				(footprints allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.508)
+				(thermal_bridge_width 0.508)
+			)
+			(polygon
+				(pts
+					(xy 150.4012 80.7061) (xy 150.4012 81.8999) (xy 156.5988 81.8999) (xy 156.5988 80.7061)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/Components/675031020/675031020.stp"
+			(offset
+				(xyz 0 -5.5 2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "5a240294-93b7-48eb-8719-014095174b44")
@@ -2957,7 +3315,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/591f774c-07aa-4ce8-bfd4-c441b0c9f9e8")
 		(sheetname "/")
-		(sheetfile "SimplerFlight_v1.kicad_sch")
+		(sheetfile "SimplerFlight_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -3160,7 +3518,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/62511b04-1f0e-49f8-8649-166088787711")
 		(sheetname "/")
-		(sheetfile "SimplerFlight_v1.kicad_sch")
+		(sheetfile "SimplerFlight_v2.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -1.33)
@@ -3438,7 +3796,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d0c2427a-f294-4b24-9f1b-d56f71f88f47")
 		(sheetname "/")
-		(sheetfile "SimplerFlight_v1.kicad_sch")
+		(sheetfile "SimplerFlight_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -3641,7 +3999,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/6026c132-1d20-4f5d-9d0f-e5035718e1c0")
 		(sheetname "/")
-		(sheetfile "SimplerFlight_v1.kicad_sch")
+		(sheetfile "SimplerFlight_v2.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -3744,7 +4102,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/81400f5c-c518-406e-9d34-1c272ef3e2d4")
 		(sheetname "/")
-		(sheetfile "SimplerFlight_v1.kicad_sch")
+		(sheetfile "SimplerFlight_v2.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -3846,7 +4204,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b96c2a45-de02-4672-ac06-303e0ac9870d")
 		(sheetname "/")
-		(sheetfile "SimplerFlight_v1.kicad_sch")
+		(sheetfile "SimplerFlight_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -4049,7 +4407,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/396ec3d8-5149-4497-83ab-776c900f8fde")
 		(sheetname "/")
-		(sheetfile "SimplerFlight_v1.kicad_sch")
+		(sheetfile "SimplerFlight_v2.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -4152,7 +4510,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/731be65a-0425-45c5-a794-da39038bd43f")
 		(sheetname "/")
-		(sheetfile "SimplerFlight_v1.kicad_sch")
+		(sheetfile "SimplerFlight_v2.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -1.33)
@@ -4430,7 +4788,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c3bc370d-671b-4d82-887f-3b573fc12d0f")
 		(sheetname "/")
-		(sheetfile "SimplerFlight_v1.kicad_sch")
+		(sheetfile "SimplerFlight_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -4632,7 +4990,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f80a388a-4e93-44c6-8c65-87d22ade5b86")
 		(sheetname "/")
-		(sheetfile "SimplerFlight_v1.kicad_sch")
+		(sheetfile "SimplerFlight_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -4835,7 +5193,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/55a4d75e-99da-4d9a-a35c-300a7436a2ad")
 		(sheetname "/")
-		(sheetfile "SimplerFlight_v1.kicad_sch")
+		(sheetfile "SimplerFlight_v2.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -1.33)
@@ -5113,7 +5471,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/145c7158-32eb-4da7-9dc0-c8d562657e83")
 		(sheetname "/")
-		(sheetfile "SimplerFlight_v1.kicad_sch")
+		(sheetfile "SimplerFlight_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -5316,7 +5674,7 @@
 		(property ki_fp_filters "USB*")
 		(path "/85510729-9c35-4e01-8881-adbb9437294d")
 		(sheetname "/")
-		(sheetfile "SimplerFlight_v1.kicad_sch")
+		(sheetfile "SimplerFlight_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.075 -2.825)
@@ -5656,7 +6014,7 @@
 			(property pad_prop_heatsink)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 8 "unconnected-(J1-Shield-Pad6)")
+			(net 62 "unconnected-(J1-Shield-Pad6)_1")
 			(pinfunction "Shield")
 			(pintype "passive+no_connect")
 			(uuid "404f0f5b-e4b8-4ca5-8410-e72fbe5664dd")
@@ -5680,6 +6038,7 @@
 			(property pad_prop_heatsink)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 63 "unconnected-(J1-Shield-Pad6)_2")
 			(pinfunction "Shield")
 			(pintype "passive+no_connect")
 			(uuid "53f5ca46-e1bb-4f12-801d-dde1bfed6c8d")
@@ -5691,7 +6050,7 @@
 			(property pad_prop_heatsink)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 8 "unconnected-(J1-Shield-Pad6)")
+			(net 64 "unconnected-(J1-Shield-Pad6)_3")
 			(pinfunction "Shield")
 			(pintype "passive+no_connect")
 			(uuid "9bd998ed-8b18-4bda-ae6b-45d720ef3600")
@@ -5766,7 +6125,7 @@
 		)
 		(path "/6c55f79f-c02f-499d-a5f8-30f3e1394dca")
 		(sheetname "/")
-		(sheetfile "SimplerFlight_v1.kicad_sch")
+		(sheetfile "SimplerFlight_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 3.45 0.72)
@@ -6693,7 +7052,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a2dfc532-deef-414f-9e33-a71ce89fd4f1")
 		(sheetname "/")
-		(sheetfile "SimplerFlight_v1.kicad_sch")
+		(sheetfile "SimplerFlight_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -6895,7 +7254,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/93ea536b-f700-448d-8c86-14097472b587")
 		(sheetname "/")
-		(sheetfile "SimplerFlight_v1.kicad_sch")
+		(sheetfile "SimplerFlight_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -7097,7 +7456,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/15e5c7fe-c224-43a4-9369-e2336576e32d")
 		(sheetname "/")
-		(sheetfile "SimplerFlight_v1.kicad_sch")
+		(sheetfile "SimplerFlight_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -7299,7 +7658,7 @@
 		(property ki_fp_filters "Crystal*")
 		(path "/450c1a0b-f8ed-4dba-bd33-5b298fdee401")
 		(sheetname "/")
-		(sheetfile "SimplerFlight_v1.kicad_sch")
+		(sheetfile "SimplerFlight_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2 1.65)
@@ -7529,7 +7888,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ca2a566c-c50b-4552-bec2-0e59ede80bf9")
 		(sheetname "/")
-		(sheetfile "SimplerFlight_v1.kicad_sch")
+		(sheetfile "SimplerFlight_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -7732,7 +8091,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b26b5988-a666-4fce-9182-7008937117d6")
 		(sheetname "/")
-		(sheetfile "SimplerFlight_v1.kicad_sch")
+		(sheetfile "SimplerFlight_v2.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 8.95)
@@ -8085,7 +8444,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "SimplerFlight_v1\n04/2025"
+	(gr_text "SimplerFlight_v2\n06/2025"
 		(at 103.7 69.4 0)
 		(layer "F.SilkS")
 		(uuid "82232aab-0496-4218-82f6-ed98c37dc241")
