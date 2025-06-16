@@ -14,6 +14,8 @@
 
 # TODO
 ## Probably for V2
+- Add button for manual reset
+- Add SWD reset pin
 - Integrate onboard BMP581
 - Integrate onboard IMU
     - Choose an IMU
