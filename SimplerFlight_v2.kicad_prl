@@ -1,8 +1,8 @@
 {
   "board": {
-    "active_layer": 5,
+    "active_layer": 0,
     "active_layer_preset": "All Layers",
-    "auto_track_width": false,
+    "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -50,7 +50,7 @@
       "shapes"
     ],
     "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
-    "zone_display_mode": 1
+    "zone_display_mode": 0
   },
   "git": {
     "repo_type": "",
@@ -58,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "SimplerFlight_v1.kicad_prl",
+    "filename": "SimplerFlight_v2.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -87,16 +87,16 @@
       9
     ],
     "col_widths": [
-      103,
-      95,
-      63,
-      44,
-      63,
-      63,
-      63,
-      47,
-      63,
-      63
+      162,
+      147,
+      91,
+      67,
+      91,
+      91,
+      91,
+      71,
+      91,
+      91
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
