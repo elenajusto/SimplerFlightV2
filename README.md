@@ -14,11 +14,16 @@
 
 # TODO
 ## Probably for V2
-- Integrate BMP581
-- Integrate IMU
+- Integrate onboard BMP581
+- Integrate onboard IMU
+    - Choose an IMU
 - Output for Servo control
-- Data log to flash
+- Log to external flash
+    - Choose a flash
+- Log data to SD
+    - Choose SD
 
 ## Might be for V3
-- Power off battery
-- Integrate run camera control
+- Deliver power from battery
+- Allow USB power delivery when debugging
+- Expand board to integrate run camera controls
