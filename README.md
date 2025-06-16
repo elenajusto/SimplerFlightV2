@@ -21,9 +21,9 @@
 - Log to external flash
     - Choose a flash
 - Log data to SD
-    - Choose SD
+    - Choose an SD
 
 ## Probably for V3
 - Deliver power from battery
-- Allow USB power delivery when debugging
+- Switch to USB power delivery when debugging
 - Expand board to integrate run camera controls
