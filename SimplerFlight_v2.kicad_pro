@@ -454,7 +454,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -474,7 +474,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SimplerFlight_v1.kicad_pro",
+    "filename": "SimplerFlight_v2.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -620,7 +620,7 @@
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
-      "intersheets_ref_show": false,
+      "intersheets_ref_show": true,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.375,
@@ -662,6 +662,22 @@
     [
       "05521696-5bcb-4d0e-9e87-bbc993e58ce4",
       "Root"
+    ],
+    [
+      "9c9f06bc-de18-4b20-a7a6-016e96dea1cf",
+      "Power"
+    ],
+    [
+      "6df2aae1-b6ff-4842-8aa4-fa9a1c515ea6",
+      "Mounting Holes"
+    ],
+    [
+      "9753bcae-d3f8-4537-a820-ef0578a227b0",
+      "Sensors"
+    ],
+    [
+      "5650f10d-f3d9-4005-a2cb-b3a110a98d48",
+      "Storage"
     ]
   ],
   "text_variables": {}
