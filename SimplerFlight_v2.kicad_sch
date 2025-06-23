@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Simpler Flight v2")
-		(date "2025-04-20")
+		(date "2025-06-23")
 		(rev "1")
 		(company "Lulu Systems")
 	)
@@ -2597,16 +2597,6 @@
 		)
 		(uuid "0eeb4668-5863-4d3f-8778-ec822a58aa38")
 	)
-	(text "Pinout using STM32CubeIDE\n"
-		(exclude_from_sim no)
-		(at 28.702 160.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "14a545d2-0225-45c4-af0b-923bf94febef")
-	)
 	(text "Capacitor Load = 2 * (CL0 - Cs)\n              = 2 * (10 - 5)\n      = 10 pF\n"
 		(exclude_from_sim no)
 		(at 67.818 89.662 0)
@@ -2638,18 +2628,6 @@
 			)
 		)
 		(uuid "9e9bd4d7-f9c3-4f34-bec2-070c13ff464e")
-	)
-	(text "Microcontroller"
-		(exclude_from_sim no)
-		(at 29.464 4.318 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "d3f5a047-39ab-4c09-b2d6-d9232d2cdd1e")
 	)
 	(junction
 		(at 118.11 35.56)
@@ -34019,8 +33997,8 @@
 		)
 	)
 	(sheet
-		(at 191.77 17.78)
-		(size 25.4 21.59)
+		(at 237.49 67.31)
+		(size 33.02 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -34035,7 +34013,7 @@
 		)
 		(uuid "5650f10d-f3d9-4005-a2cb-b3a110a98d48")
 		(property "Sheetname" "Storage"
-			(at 191.77 17.0684 0)
+			(at 237.49 66.5984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34044,12 +34022,13 @@
 			)
 		)
 		(property "Sheetfile" "storage.kicad_sch"
-			(at 191.77 39.9546 0)
+			(at 237.49 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
@@ -34061,8 +34040,8 @@
 		)
 	)
 	(sheet
-		(at 255.27 17.78)
-		(size 13.97 21.59)
+		(at 144.78 171.45)
+		(size 25.4 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -34077,7 +34056,7 @@
 		)
 		(uuid "6df2aae1-b6ff-4842-8aa4-fa9a1c515ea6")
 		(property "Sheetname" "Mounting Holes"
-			(at 255.27 17.0684 0)
+			(at 144.78 170.7384 0)
 			(show_name yes)
 			(effects
 				(font
@@ -34087,7 +34066,7 @@
 			)
 		)
 		(property "Sheetfile" "mounting_holes.kicad_sch"
-			(at 255.27 39.9546 0)
+			(at 144.78 193.6246 0)
 			(show_name yes)
 			(effects
 				(font
@@ -34106,7 +34085,7 @@
 		)
 	)
 	(sheet
-		(at 236.22 116.84)
+		(at 237.49 95.25)
 		(size 33.02 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34122,7 +34101,7 @@
 		)
 		(uuid "9753bcae-d3f8-4537-a820-ef0578a227b0")
 		(property "Sheetname" "Sensors"
-			(at 236.22 116.1284 0)
+			(at 237.49 94.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34131,7 +34110,7 @@
 			)
 		)
 		(property "Sheetfile" "sensors.kicad_sch"
-			(at 236.22 139.0146 0)
+			(at 237.49 117.4246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34149,7 +34128,7 @@
 		)
 	)
 	(sheet
-		(at 219.71 17.78)
+		(at 237.49 39.37)
 		(size 33.02 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34165,7 +34144,7 @@
 		)
 		(uuid "9c9f06bc-de18-4b20-a7a6-016e96dea1cf")
 		(property "Sheetname" "Power"
-			(at 219.71 17.0684 0)
+			(at 237.49 38.6584 0)
 			(show_name yes)
 			(effects
 				(font
@@ -34175,7 +34154,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 219.71 39.9546 0)
+			(at 237.49 61.5446 0)
 			(show_name yes)
 			(effects
 				(font
