@@ -2619,7 +2619,7 @@
 	)
 	(text "Simpler Flight v2\n"
 		(exclude_from_sim no)
-		(at 228.092 173.482 0)
+		(at 212.852 172.466 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -3900,7 +3900,7 @@
 		(uuid "fec0e08c-f4ea-4d70-80c9-37a9ad736101")
 	)
 	(image
-		(at 184.15 172.72)
+		(at 254 172.72)
 		(scale 0.117186)
 		(uuid "d30432ee-39da-4b81-854a-e637c12c1081")
 		(data "iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4"
