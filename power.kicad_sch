@@ -3289,7 +3289,7 @@
 	)
 	(text "Power Supply - Servo Motor - 5V"
 		(exclude_from_sim no)
-		(at 109.474 17.78 0)
+		(at 109.982 18.542 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3356,7 +3356,7 @@
 	)
 	(text "Power Supply - Cameras - 5V"
 		(exclude_from_sim no)
-		(at 106.68 72.644 0)
+		(at 106.68 73.66 0)
 		(effects
 			(font
 				(size 2.54 2.54)
