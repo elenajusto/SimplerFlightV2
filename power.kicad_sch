@@ -5,7 +5,7 @@
 	(uuid "db7cfed6-db6c-47d8-a4f4-d712c9a6adab")
 	(paper "A4")
 	(title_block
-		(title "Power System")
+		(title "Power ")
 		(company "Lulu Systems")
 	)
 	(lib_symbols
