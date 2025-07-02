@@ -678,6 +678,10 @@
     [
       "5650f10d-f3d9-4005-a2cb-b3a110a98d48",
       "Storage"
+    ],
+    [
+      "48646a32-6556-4772-9e6c-3c45575ecce9",
+      "Peripherals"
     ]
   ],
   "text_variables": {}
