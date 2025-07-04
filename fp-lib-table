@@ -6,4 +6,7 @@
   (lib (name "39-28-1023")(type "KiCad")(uri "${KIPRJMOD}/Components/39281023/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "B540C_13_F")(type "KiCad")(uri "${KIPRJMOD}/Components/B540C_13_F")(options "")(descr ""))
   (lib (name "C1F_5")(type "KiCad")(uri "${KIPRJMOD}/Components/C1F_5")(options "")(descr ""))
+  (lib (name "S05B_PASK_2_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/Components/S05B_PASK_2_LF__SN_/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "DM3CS_SF")(type "KiCad")(uri "${KIPRJMOD}/Components/DM3CS_SF")(options "")(descr ""))
+  (lib (name "W25X40CLSNIG")(type "KiCad")(uri "${KIPRJMOD}/Components/W25X40CLSNIG/KiCADv6/footprints.pretty")(options "")(descr ""))
 )

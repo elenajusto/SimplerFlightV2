@@ -32240,7 +32240,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 144.78 93.98 0)
 			(effects
 				(font
@@ -32301,7 +32301,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "39281023"
+		(property "Value" "Battery 2"
 			(at 26.6699 92.71 90)
 			(effects
 				(font
@@ -32382,7 +32382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 98.7552 96.52 0)
 			(effects
 				(font
@@ -32452,7 +32452,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 103.8352 104.14 0)
 			(effects
 				(font
@@ -32522,7 +32522,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 135.382 109.22 90)
 			(effects
 				(font
@@ -32590,7 +32590,7 @@
 				)
 			)
 		)
-		(property "Footprint" "B540C-13-F:DIOM6959X245N"
+		(property "Footprint" "B540C_13_F:DIOM6959X245N"
 			(at 59.69 31.75 0)
 			(effects
 				(font
@@ -32699,7 +32699,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 132.08 39.37 0)
 			(effects
 				(font
@@ -32767,7 +32767,7 @@
 				)
 			)
 		)
-		(property "Footprint" "B540C-13-F:DIOM6959X245N"
+		(property "Footprint" "B540C_13_F:DIOM6959X245N"
 			(at 60.96 86.36 0)
 			(effects
 				(font
@@ -32878,7 +32878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 97.282 48.26 90)
 			(effects
 				(font
@@ -33015,7 +33015,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "675031020"
+		(property "Value" "USB"
 			(at 34.29 158.75 0)
 			(effects
 				(font
@@ -33105,7 +33105,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 91.1352 49.53 0)
 			(effects
 				(font
@@ -33175,7 +33175,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 160.782 99.06 90)
 			(effects
 				(font
@@ -33331,7 +33331,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 139.3952 53.34 0)
 			(effects
 				(font
@@ -33464,7 +33464,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C1F-5:FUSC3215X83N"
+		(property "Footprint" "C1F_5:FUSC3215X83N"
 			(at 44.45 86.36 0)
 			(effects
 				(font
@@ -33715,7 +33715,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 134.3152 93.98 0)
 			(effects
 				(font
@@ -33855,7 +33855,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 122.682 44.45 90)
 			(effects
 				(font
@@ -33925,7 +33925,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 109.982 102.87 90)
 			(effects
 				(font
@@ -34253,7 +34253,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "39281023"
+		(property "Value" "Battery 1"
 			(at 26.6699 38.1 90)
 			(effects
 				(font
@@ -34398,7 +34398,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 73.66 121.92 0)
 			(effects
 				(font
@@ -34556,7 +34556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 135.382 99.06 90)
 			(effects
 				(font
@@ -34758,7 +34758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 152.0952 107.95 0)
 			(effects
 				(font
@@ -34958,7 +34958,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 122.682 54.61 90)
 			(effects
 				(font
@@ -35098,7 +35098,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 121.6152 39.37 0)
 			(effects
 				(font
@@ -35244,7 +35244,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 86.0552 41.91 0)
 			(effects
 				(font
@@ -35469,7 +35469,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C1F-5:FUSC3215X83N"
+		(property "Footprint" "C1F_5:FUSC3215X83N"
 			(at 44.45 31.75 0)
 			(effects
 				(font
