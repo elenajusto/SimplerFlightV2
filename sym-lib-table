@@ -9,4 +9,6 @@
   (lib (name "S05B_PASK_2_LF__SN")(type "KiCad")(uri "${KIPRJMOD}/Components/S05B_PASK_2_LF__SN_/KiCADv6/2025-06-21_05-21-07.kicad_sym")(options "")(descr ""))
   (lib (name "DM3CS-SF")(type "KiCad")(uri "${KIPRJMOD}/Components/DM3CS_SF/DM3CS-SF.kicad_sym")(options "")(descr ""))
   (lib (name "W25X40CLSNIG")(type "KiCad")(uri "${KIPRJMOD}/Components/W25X40CLSNIG/KiCADv6/2025-07-04_00-29-52.kicad_sym")(options "")(descr ""))
+  (lib (name "IRF520NPBF")(type "KiCad")(uri "${KIPRJMOD}/Components/IRF520NPBF/IRF520NPBF.kicad_sym")(options "")(descr ""))
+  (lib (name "FSB560A")(type "KiCad")(uri "${KIPRJMOD}/Components/FSB560A/KiCADv6/2025-07-05_01-50-16.kicad_sym")(options "")(descr ""))
 )

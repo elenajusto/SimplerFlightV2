@@ -9,4 +9,6 @@
   (lib (name "S05B_PASK_2_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/Components/S05B_PASK_2_LF__SN_/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "DM3CS_SF")(type "KiCad")(uri "${KIPRJMOD}/Components/DM3CS_SF")(options "")(descr ""))
   (lib (name "W25X40CLSNIG")(type "KiCad")(uri "${KIPRJMOD}/Components/W25X40CLSNIG/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "IRF520NPBF")(type "KiCad")(uri "${KIPRJMOD}/Components/IRF520NPBF")(options "")(descr ""))
+  (lib (name "FSB560A")(type "KiCad")(uri "${KIPRJMOD}/Components/FSB560A/KiCADv6/footprints.pretty")(options "")(descr ""))
 )

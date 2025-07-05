@@ -1,4 +1,11 @@
-25599325718422637
+25618584536312882
+39-28-1023
+CONN_SD-5566-002_02_MOL
+
+39281023 
+0
+2
+2
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +20,34 @@ audio belton reverb
 0
 7
 7
+B540C_13_F
+DIOM6959X245N
+
+
+0
+2
+2
+BMP581
+QFN10_BMP581_BOS
+
+BMP581 
+0
+10
+10
+BMP581
+QFN10_BMP581_BOS-L
+
+BMP581 
+0
+10
+10
+BMP581
+QFN10_BMP581_BOS-M
+
+BMP581 
+0
+10
+10
 BNO085
 IC_BNO085
 
@@ -2670,6 +2705,13 @@ Buzzer_Beeper
 Speaker_CUI_CMR-1206S-67
 Speaker, 30mW, 300-7000Hz, IP67 face, 12x6x2,25mm, https://www.cuidevices.com/product/resource/cmr-12062s-67.pdf
 speaker CUI
+0
+2
+2
+C1F_5
+FUSC3215X83N
+
+
 0
 2
 2
@@ -57147,6 +57189,13 @@ ceramic
 0
 3
 3
+DM3CS_SF
+HRS_DM3CS-SF
+
+
+0
+13
+13
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -93757,6 +93806,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+S05B_PASK_2_LF__SN_
+CONN_S05B-PASK-2_JST
+
+S05B-PASK-2LFSN 
+0
+5
+5
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -102654,3 +102710,24 @@ Varistor VF
 0
 2
 2
+W25X40CLSNIG
+WIN_SN-8_WIN
+
+W25X40CLSNIG 
+0
+8
+8
+W25X40CLSNIG
+WIN_SN-8_WIN-L
+
+W25X40CLSNIG 
+0
+8
+8
+W25X40CLSNIG
+WIN_SN-8_WIN-M
+
+W25X40CLSNIG 
+0
+8
+8
