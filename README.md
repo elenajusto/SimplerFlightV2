@@ -18,7 +18,7 @@ Assuming:
 - VGS where measured (V): 2.5
 - Threshold (V) (use typical value): 3.3
 
-As per characteristics of FSB560A NPN BJT at https://www.digikey.com/en/products/detail/onsemi/FSB560A/1049460
+As per characteristics of BSS816NWH6327XTSA1 N-MOSFET at https://www.digikey.com.au/en/products/detail/infineon-technologies/BSS816NWH6327XTSA1/5959970
 
 ## Schematic
 
