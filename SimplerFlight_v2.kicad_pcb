@@ -7471,6 +7471,17 @@
 			(uuid "20479a08-6a90-4236-b2d3-67413e0ffc3e")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Components/FSB560A/SSOT3_3X1P5_ONS.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")

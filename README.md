@@ -9,6 +9,10 @@ Simulations done using Falstad. Available at: https://www.falstad.com/circuit/
 ### Buzzer
 ![Buzzer-Sim](https://github.com/elenajusto/SimplerFlightV2/blob/main/Images/buzzer-sim.png)
 
+hFE value of 250 
+
+As per characteristics of FSB560A NPN BJT at https://www.digikey.com/en/products/detail/onsemi/FSB560A/1049460
+
 ### Camera Power
 ![cam_power-sim-Sim](https://github.com/elenajusto/SimplerFlightV2/blob/main/Images/cam_power-sim.png)
 
