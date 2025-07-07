@@ -2661,6 +2661,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 60.96) (xy 153.67 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75eeefd1-0072-4c20-b8fa-4f5cecc23b9e")
+	)
+	(wire
+		(pts
 			(xy 82.55 139.7) (xy 82.55 138.43)
 		)
 		(stroke
@@ -2838,6 +2848,16 @@
 			(type default)
 		)
 		(uuid "999f84ae-0bae-4a1e-b31f-5e9fba5fb48b")
+	)
+	(wire
+		(pts
+			(xy 127 60.96) (xy 137.16 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aa9d5e9-5a78-4652-8e87-9d5e587e462f")
 	)
 	(wire
 		(pts
@@ -3128,16 +3148,6 @@
 			(type default)
 		)
 		(uuid "ca4f798e-c38b-44aa-b245-eead9806cfbf")
-	)
-	(wire
-		(pts
-			(xy 153.67 60.96) (xy 127 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf25ded9-d794-4d88-ad86-471b7ea30e12")
 	)
 	(polyline
 		(pts
@@ -33632,6 +33642,74 @@
 			(project "SimplerFlight_v2"
 				(path "/05521696-5bcb-4d0e-9e87-bbc993e58ce4/48646a32-6556-4772-9e6c-3c45575ecce9"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5711")
+		(at 140.97 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86763602-e5bd-41b1-b91d-aaac22ecdabf")
+		(property "Reference" "D6"
+			(at 141.2875 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5711"
+			(at 141.2875 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 140.97 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.microsemi.com/document-portal/doc_download/8865-lds-0040-datasheet"
+			(at 140.97 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "70V 33mA Schottky diode, DO-35"
+			(at 140.97 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "822bd495-a1b4-4613-bc14-0b0dab65767f")
+		)
+		(pin "1"
+			(uuid "991d586b-a85e-4fed-904d-b320ae62c99a")
+		)
+		(instances
+			(project "SimplerFlight_v2"
+				(path "/05521696-5bcb-4d0e-9e87-bbc993e58ce4/48646a32-6556-4772-9e6c-3c45575ecce9"
+					(reference "D6")
 					(unit 1)
 				)
 			)
