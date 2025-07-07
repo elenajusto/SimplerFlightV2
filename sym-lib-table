@@ -13,4 +13,5 @@
   (lib (name "FSB560A")(type "KiCad")(uri "${KIPRJMOD}/Components/FSB560A/KiCADv6/2025-07-05_01-50-16.kicad_sym")(options "")(descr ""))
   (lib (name "PS1240P02BT")(type "KiCad")(uri "${KIPRJMOD}/Components/PS1240P02BT/PS1240P02BT.kicad_sym")(options "")(descr ""))
   (lib (name "BSS816NWH6327XTSA1")(type "KiCad")(uri "${KIPRJMOD}/Components/BSS816NWH6327XTSA1/BSS816NWH6327XTSA1.kicad_sym")(options "")(descr ""))
+  (lib (name "MX25V4006EM1I-13G")(type "KiCad")(uri "${KIPRJMOD}/Components/MX25V4006EM1I_13G/KiCADv6/2025-07-07_05-14-05.kicad_sym")(options "")(descr ""))
 )
