@@ -3,6 +3,11 @@
 ## Architecture
 ![Architecture](https://github.com/elenajusto/SimplerFlightV2/blob/main/Images/architecture.png)
 
+## Simulations
+
+### Buzzer
+![Buzzer-Sim](https://github.com/elenajusto/SimplerFlightV2/blob/main/Images/buzzer-sim.png)
+
 ## Schematic
 
 ### Root

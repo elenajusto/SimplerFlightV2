@@ -11,4 +11,5 @@
   (lib (name "W25X40CLSNIG")(type "KiCad")(uri "${KIPRJMOD}/Components/W25X40CLSNIG/KiCADv6/2025-07-04_00-29-52.kicad_sym")(options "")(descr ""))
   (lib (name "IRF520NPBF")(type "KiCad")(uri "${KIPRJMOD}/Components/IRF520NPBF/IRF520NPBF.kicad_sym")(options "")(descr ""))
   (lib (name "FSB560A")(type "KiCad")(uri "${KIPRJMOD}/Components/FSB560A/KiCADv6/2025-07-05_01-50-16.kicad_sym")(options "")(descr ""))
+  (lib (name "PS1240P02BT")(type "KiCad")(uri "${KIPRJMOD}/Components/PS1240P02BT/PS1240P02BT.kicad_sym")(options "")(descr ""))
 )

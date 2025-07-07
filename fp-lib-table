@@ -11,4 +11,5 @@
   (lib (name "W25X40CLSNIG")(type "KiCad")(uri "${KIPRJMOD}/Components/W25X40CLSNIG/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "IRF520NPBF")(type "KiCad")(uri "${KIPRJMOD}/Components/IRF520NPBF")(options "")(descr ""))
   (lib (name "FSB560A")(type "KiCad")(uri "${KIPRJMOD}/Components/FSB560A/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "PS1240P02BT")(type "KiCad")(uri "${KIPRJMOD}/Components/PS1240P02BT")(options "")(descr ""))
 )
