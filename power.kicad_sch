@@ -3554,7 +3554,7 @@
 	)
 	(polyline
 		(pts
-			(xy 76.2 76.2) (xy 190.5 76.2)
+			(xy 76.2 76.2) (xy 180.34 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3574,13 +3574,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 138.43) (xy 152.4 143.51)
+			(xy 144.78 143.51) (xy 144.78 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0aecaf3d-659d-47b4-84b7-27609a91d452")
+		(uuid "0bf76f08-dd49-4c35-ae61-715de618665d")
 	)
 	(wire
 		(pts
@@ -3744,7 +3744,7 @@
 	)
 	(polyline
 		(pts
-			(xy 190.5 68.58) (xy 76.2 68.58)
+			(xy 181.61 68.58) (xy 76.2 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3834,7 +3834,7 @@
 	)
 	(polyline
 		(pts
-			(xy 190.5 76.2) (xy 190.5 120.65)
+			(xy 180.34 76.2) (xy 180.34 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4024,7 +4024,7 @@
 	)
 	(polyline
 		(pts
-			(xy 76.708 129.54) (xy 157.48 129.54)
+			(xy 76.708 129.54) (xy 151.13 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4234,7 +4234,7 @@
 	)
 	(polyline
 		(pts
-			(xy 190.5 120.65) (xy 76.2 120.65)
+			(xy 180.34 120.65) (xy 76.2 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4464,7 +4464,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 143.51) (xy 134.62 143.51)
+			(xy 134.62 143.51) (xy 144.78 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4564,7 +4564,7 @@
 	)
 	(polyline
 		(pts
-			(xy 76.2 21.59) (xy 190.5 21.59)
+			(xy 76.2 21.59) (xy 181.61 21.59)
 		)
 		(stroke
 			(width 0)
@@ -4764,7 +4764,7 @@
 	)
 	(polyline
 		(pts
-			(xy 157.48 129.54) (xy 157.48 167.64)
+			(xy 151.13 129.54) (xy 151.13 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4904,7 +4904,7 @@
 	)
 	(polyline
 		(pts
-			(xy 190.5 21.59) (xy 190.5 68.58)
+			(xy 181.61 21.59) (xy 181.61 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4914,7 +4914,7 @@
 	)
 	(polyline
 		(pts
-			(xy 157.48 167.64) (xy 76.708 167.64)
+			(xy 151.13 167.64) (xy 76.708 167.64)
 		)
 		(stroke
 			(width 0)
@@ -33497,7 +33497,7 @@
 		(uuid "2de82a0b-903c-4173-bbab-7eef7fc076fb")
 	)
 	(label "3V3"
-		(at 147.32 143.51 180)
+		(at 143.51 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -33556,47 +33556,27 @@
 		)
 		(uuid "cf147383-6731-49d2-815b-69f38bf8975f")
 	)
-	(global_label "USB_DP"
-		(shape input)
-		(at 53.34 148.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8e30cadd-998b-4726-93fa-aa03f0702bf8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.6428 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "USB_DN"
+	(hierarchical_label "USB_DN"
 		(shape input)
 		(at 53.34 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "eb0857c9-3c26-4bc4-86d8-bd8040477caf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.7033 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+		(uuid "007251e4-68b7-458c-85e0-4319a5935508")
+	)
+	(hierarchical_label "USB_DP"
+		(shape input)
+		(at 53.34 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "bc480a4f-2ebc-4879-8d7d-34c337776416")
 	)
 	(symbol
 		(lib_id "Device:L")
@@ -34934,7 +34914,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 152.4 138.43 0)
+		(at 144.78 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34942,7 +34922,7 @@
 		(dnp no)
 		(uuid "3a146c39-7111-4a32-81c7-dd83cdbfc046")
 		(property "Reference" "#PWR03"
-			(at 152.4 142.24 0)
+			(at 144.78 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34951,7 +34931,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 152.146 134.366 0)
+			(at 144.526 134.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34959,7 +34939,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 138.43 0)
+			(at 144.78 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34968,7 +34948,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 138.43 0)
+			(at 144.78 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34977,7 +34957,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 152.4 138.43 0)
+			(at 144.78 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
