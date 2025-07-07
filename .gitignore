@@ -16,3 +16,6 @@ fp-info-cache
 .DS_Store
 Thumbs.db
 
+# Ignore files without extensions
+*~
+
