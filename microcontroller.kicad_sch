@@ -2986,6 +2986,16 @@
 		)
 		(uuid "4cddddab-17b1-4a0f-a752-dff5000eb139")
 	)
+	(text "x1 10uF bulk decoupling capacitor"
+		(exclude_from_sim no)
+		(at 67.056 24.638 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4df83197-b75b-4692-a23f-b862028c749f")
+	)
 	(text "Power Supply Scheme"
 		(exclude_from_sim no)
 		(at 41.656 19.05 0)
