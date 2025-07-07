@@ -3554,7 +3554,7 @@
 	)
 	(polyline
 		(pts
-			(xy 76.2 76.2) (xy 180.34 76.2)
+			(xy 76.2 76.2) (xy 190.5 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3574,7 +3574,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 138.43) (xy 142.24 143.51)
+			(xy 152.4 138.43) (xy 152.4 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3744,7 +3744,7 @@
 	)
 	(polyline
 		(pts
-			(xy 180.34 68.58) (xy 76.2 68.58)
+			(xy 190.5 68.58) (xy 76.2 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3834,7 +3834,7 @@
 	)
 	(polyline
 		(pts
-			(xy 180.34 76.2) (xy 180.34 120.65)
+			(xy 190.5 76.2) (xy 190.5 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4024,7 +4024,7 @@
 	)
 	(polyline
 		(pts
-			(xy 76.708 129.54) (xy 146.558 129.54)
+			(xy 76.708 129.54) (xy 157.48 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4234,7 +4234,7 @@
 	)
 	(polyline
 		(pts
-			(xy 180.34 120.65) (xy 76.2 120.65)
+			(xy 190.5 120.65) (xy 76.2 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4464,7 +4464,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 143.51) (xy 134.62 143.51)
+			(xy 152.4 143.51) (xy 134.62 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4564,7 +4564,7 @@
 	)
 	(polyline
 		(pts
-			(xy 76.2 21.59) (xy 180.34 21.59)
+			(xy 76.2 21.59) (xy 190.5 21.59)
 		)
 		(stroke
 			(width 0)
@@ -4764,7 +4764,7 @@
 	)
 	(polyline
 		(pts
-			(xy 146.558 129.54) (xy 146.558 167.64)
+			(xy 157.48 129.54) (xy 157.48 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4904,7 +4904,7 @@
 	)
 	(polyline
 		(pts
-			(xy 180.34 21.59) (xy 180.34 68.58)
+			(xy 190.5 21.59) (xy 190.5 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4914,7 +4914,7 @@
 	)
 	(polyline
 		(pts
-			(xy 146.558 167.64) (xy 76.708 167.64)
+			(xy 157.48 167.64) (xy 76.708 167.64)
 		)
 		(stroke
 			(width 0)
@@ -33456,7 +33456,7 @@
 			"yuKpUt0AAAAASUVORK5CYII="
 		)
 	)
-	(label "VBUS_USB"
+	(label "VBUS_MCU"
 		(at 52.07 143.51 180)
 		(effects
 			(font
@@ -33465,6 +33465,16 @@
 			(justify right bottom)
 		)
 		(uuid "1af89a16-6742-4191-8997-6140dd679239")
+	)
+	(label "5V_SERVO"
+		(at 171.45 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "23606791-0a5e-4c5d-804d-6ff870de7fd1")
 	)
 	(label "VBUS_SERVO"
 		(at 90.17 31.75 180)
@@ -33486,6 +33496,16 @@
 		)
 		(uuid "2de82a0b-903c-4173-bbab-7eef7fc076fb")
 	)
+	(label "3V3"
+		(at 147.32 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "30a5c826-e464-4c73-9fdc-9c79c48f94c8")
+	)
 	(label "USB_OTG_FS_D+"
 		(at 52.07 148.59 180)
 		(effects
@@ -33505,6 +33525,16 @@
 			(justify right bottom)
 		)
 		(uuid "6993a6c4-8d10-4957-b5b5-b0fa8459a5cd")
+	)
+	(label "5V_CAM"
+		(at 172.72 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6cb94a6c-a1ad-4502-9fc4-0f9ac1e689f7")
 	)
 	(label "USB_OTG_FS_D-"
 		(at 52.07 146.05 180)
@@ -34904,7 +34934,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 142.24 138.43 0)
+		(at 152.4 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34912,7 +34942,7 @@
 		(dnp no)
 		(uuid "3a146c39-7111-4a32-81c7-dd83cdbfc046")
 		(property "Reference" "#PWR03"
-			(at 142.24 142.24 0)
+			(at 152.4 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34921,7 +34951,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 141.986 134.366 0)
+			(at 152.146 134.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34929,7 +34959,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 138.43 0)
+			(at 152.4 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34938,7 +34968,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 138.43 0)
+			(at 152.4 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34947,7 +34977,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 142.24 138.43 0)
+			(at 152.4 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
