@@ -1,0 +1,18 @@
+# Lock files
+*.lck
+
+# KiCad backups and temp
+SimplerFlight_v2-backups/
+*~
+*.bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.autosave
+*.tmp
+fp-info-cache
+.cache/
+
+# OS junk
+.DS_Store
+Thumbs.db
+

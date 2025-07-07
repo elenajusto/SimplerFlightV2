@@ -8,6 +8,18 @@
 ### Buzzer
 ![Buzzer-Sim](https://github.com/elenajusto/SimplerFlightV2/blob/main/Images/buzzer-sim.png)
 
+### Camera Power
+![cam_power-sim-Sim](https://github.com/elenajusto/SimplerFlightV2/blob/main/Images/cam_power-sim.png)
+
+Beta value of 7.8
+
+Assuming:
+- RDS(on) (Ω) (use typical value): 0.16
+- VGS where measured (V): 2.5
+- Threshold (V) (use typical value): 3.3
+
+As per characteristics of FSB560A NPN BJT at https://www.digikey.com/en/products/detail/onsemi/FSB560A/1049460
+
 ## Schematic
 
 ### Root
