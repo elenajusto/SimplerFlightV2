@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BSS816NWH6327XTSA1
+D BSS816NWH6327XTSA1 N-Channel MOSFET, 1.4 A, 20 V OptiMOS 2, 3-Pin SOT-323 Infineon
+K
+F https://www.infineon.com/dgdl/Infineon-BSS816NW-DS-v02_03-en.pdf?fileId=db3a304335113a6301351e704a2e1332
+$ENDCMP
+#
+#End Doc Library
