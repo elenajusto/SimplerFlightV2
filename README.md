@@ -4,6 +4,7 @@
 ![Architecture](https://github.com/elenajusto/SimplerFlightV2/blob/main/Images/architecture.png)
 
 ## Simulations
+Simulations done using Falstad. Available at: https://www.falstad.com/circuit/
 
 ### Buzzer
 ![Buzzer-Sim](https://github.com/elenajusto/SimplerFlightV2/blob/main/Images/buzzer-sim.png)
