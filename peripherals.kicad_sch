@@ -1991,131 +1991,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2198,131 +2073,6 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:VDD"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VDD"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VDD\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VDD_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VDD_1_1"
-				(pin power_in line
-					(at 0 0 90)
 					(length 0)
 					(name "~"
 						(effects
@@ -2464,6 +2214,12 @@
 		(uuid "381260e5-04c7-41e7-bedb-1c0b56727e6d")
 	)
 	(junction
+		(at 200.66 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ac44526-bc9a-4ff3-a1df-27fbd5a85cdd")
+	)
+	(junction
 		(at 35.56 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2486,12 +2242,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "537497b2-37bd-4937-bf91-c18c5f620924")
-	)
-	(junction
-		(at 200.66 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7603f5e8-ad0f-47ac-ba4d-c0c93699a42a")
 	)
 	(junction
 		(at 250.19 116.84)
@@ -2617,16 +2367,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 113.03) (xy 203.2 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16aa264e-618f-4977-ac4f-0c2406ddbe8d")
-	)
-	(wire
-		(pts
 			(xy 191.77 140.97) (xy 198.12 140.97)
 		)
 		(stroke
@@ -2697,7 +2437,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 106.68) (xy 38.1 113.03)
+			(xy 38.1 110.49) (xy 38.1 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3027,7 +2767,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 106.68) (xy 119.38 113.03)
+			(xy 119.38 110.49) (xy 119.38 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3294,6 +3034,16 @@
 			(type default)
 		)
 		(uuid "a97128c3-c2fd-42e9-846b-20425a8715bc")
+	)
+	(wire
+		(pts
+			(xy 200.66 113.03) (xy 203.2 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab7b343f-05aa-4108-9179-7d4d9ab6d678")
 	)
 	(wire
 		(pts
@@ -3577,7 +3327,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 106.68) (xy 200.66 113.03)
+			(xy 200.66 110.49) (xy 200.66 113.03)
 		)
 		(stroke
 			(width 0)
@@ -32030,6 +31780,28 @@
 		)
 		(uuid "01cdfd20-ac15-48b6-97be-8b6dbc671a82")
 	)
+	(hierarchical_label "5V_SERVO"
+		(shape input)
+		(at 45.72 63.5 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "02fbbff4-bd43-4ded-8b3c-079953e6bba9")
+	)
+	(hierarchical_label "5V_CAM"
+		(shape input)
+		(at 38.1 110.49 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "07f6dea1-2436-48d0-92e4-fc8a6fa610f5")
+	)
 	(hierarchical_label "BUZZ"
 		(shape input)
 		(at 205.74 68.58 180)
@@ -32040,6 +31812,39 @@
 			(justify right)
 		)
 		(uuid "126abff5-c7cb-4eff-8384-36b4dfd70eed")
+	)
+	(hierarchical_label "5V_CAM"
+		(shape input)
+		(at 119.38 110.49 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b8e7f6d-f943-409d-a1d0-2a4467604bce")
+	)
+	(hierarchical_label "5V_CAM"
+		(shape input)
+		(at 200.66 110.49 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2c1b3b9f-0024-4d6a-a931-b5a164121397")
+	)
+	(hierarchical_label "5V_SERVO"
+		(shape input)
+		(at 123.19 59.69 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31822424-30b9-49fd-8021-9fc998e2cf05")
 	)
 	(hierarchical_label "CAM_2_EN"
 		(shape input)
@@ -32095,6 +31900,17 @@
 			(justify right)
 		)
 		(uuid "593c1a79-b5fd-4531-be3a-e57ecd64d965")
+	)
+	(hierarchical_label "+3V3"
+		(shape input)
+		(at 227.33 50.8 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6bed889d-9ef2-463a-8d6d-c23d7391f24a")
 	)
 	(hierarchical_label "CAM_3_TX"
 		(shape input)
@@ -32444,71 +32260,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 45.72 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1909cd07-7500-4342-9b37-0e60b1e0b9dd")
-		(property "Reference" "#PWR044"
-			(at 45.72 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "5V_SERVO"
-			(at 45.72 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 45.72 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "554f2bb0-af87-4ab8-8eb8-db706f9a32a8")
-		)
-		(instances
-			(project "SimplerFlight_v2"
-				(path "/05521696-5bcb-4d0e-9e87-bbc993e58ce4/48646a32-6556-4772-9e6c-3c45575ecce9"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 81.28 134.62 0)
 		(unit 1)
@@ -32568,71 +32319,6 @@
 			(project "SimplerFlight_v2"
 				(path "/05521696-5bcb-4d0e-9e87-bbc993e58ce4/48646a32-6556-4772-9e6c-3c45575ecce9"
 					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 123.19 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "264d7096-375e-424f-bff7-959d0906841f")
-		(property "Reference" "#PWR052"
-			(at 123.19 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "5V_SERVO"
-			(at 123.19 55.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 123.19 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f3181583-3a94-43e7-a204-2d9ef13eb074")
-		)
-		(instances
-			(project "SimplerFlight_v2"
-				(path "/05521696-5bcb-4d0e-9e87-bbc993e58ce4/48646a32-6556-4772-9e6c-3c45575ecce9"
-					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -32908,136 +32594,6 @@
 			(project "SimplerFlight_v2"
 				(path "/05521696-5bcb-4d0e-9e87-bbc993e58ce4/48646a32-6556-4772-9e6c-3c45575ecce9"
 					(reference "LS1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 119.38 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3df17f7d-88a8-421f-9324-a0ef57b8b118")
-		(property "Reference" "#PWR057"
-			(at 119.38 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "5V_CAM"
-			(at 119.634 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 119.38 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e041124-0ee3-4806-9394-7386e61693ea")
-		)
-		(instances
-			(project "SimplerFlight_v2"
-				(path "/05521696-5bcb-4d0e-9e87-bbc993e58ce4/48646a32-6556-4772-9e6c-3c45575ecce9"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 200.66 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4b6ad004-3746-4b95-9d0b-5177698087f8")
-		(property "Reference" "#PWR047"
-			(at 200.66 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "5V_CAM"
-			(at 200.914 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 200.66 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c085543e-0361-4cdd-93cf-87d4b2e7b704")
-		)
-		(instances
-			(project "SimplerFlight_v2"
-				(path "/05521696-5bcb-4d0e-9e87-bbc993e58ce4/48646a32-6556-4772-9e6c-3c45575ecce9"
-					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -34155,71 +33711,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 227.33 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c74c8e44-57f7-4c25-baab-1bb0dcbed00f")
-		(property "Reference" "#PWR055"
-			(at 227.33 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 227.33 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 227.33 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 227.33 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c8dec19-824f-4966-9926-92f5a186cf1b")
-		)
-		(instances
-			(project "SimplerFlight_v2"
-				(path "/05521696-5bcb-4d0e-9e87-bbc993e58ce4/48646a32-6556-4772-9e6c-3c45575ecce9"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "2025-06-21_05-21-07:S05B-PASK-2LFSN")
 		(at 87.63 138.43 0)
 		(unit 1)
@@ -34495,71 +33986,6 @@
 			(project "SimplerFlight_v2"
 				(path "/05521696-5bcb-4d0e-9e87-bbc993e58ce4/48646a32-6556-4772-9e6c-3c45575ecce9"
 					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 38.1 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e490cddb-ee2c-4c62-a98f-52d09f80bc32")
-		(property "Reference" "#PWR045"
-			(at 38.1 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "5V_CAM"
-			(at 38.354 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 38.1 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fed2e5ef-53ab-4506-a3b7-bec5abd325df")
-		)
-		(instances
-			(project "SimplerFlight_v2"
-				(path "/05521696-5bcb-4d0e-9e87-bbc993e58ce4/48646a32-6556-4772-9e6c-3c45575ecce9"
-					(reference "#PWR045")
 					(unit 1)
 				)
 			)

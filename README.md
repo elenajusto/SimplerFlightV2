@@ -51,5 +51,8 @@ As per characteristics of BSS816NWH6327XTSA1 N-MOSFET at https://www.digikey.com
 ### Headers
 ![Headers](https://github.com/elenajusto/SimplerFlightV2/blob/main/Images/headers.png)
 
+## Routing
+![Routing](https://github.com/elenajusto/SimplerFlightV2/blob/main/Images/routing.png)
+
 ## PCB
 ![PCB](https://github.com/elenajusto/SimplerFlightV2/blob/main/Images/pcb.png)
