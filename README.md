@@ -25,6 +25,9 @@ Assuming:
 
 As per characteristics of BSS816NWH6327XTSA1 N-MOSFET at https://www.digikey.com.au/en/products/detail/infineon-technologies/BSS816NWH6327XTSA1/5959970
 
+## Microcontroller Pinout
+![Pinout](https://github.com/elenajusto/SimplerFlightV2/blob/main/Images/pinout.png)
+
 ## Schematic
 
 ### Root
