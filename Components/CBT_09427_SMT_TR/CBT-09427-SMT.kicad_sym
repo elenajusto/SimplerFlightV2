@@ -1,0 +1,89 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "CBT-09427-SMT" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "LS" (id 0) (at -5.10002 7.65004 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "CBT-09427-SMT" (id 1) (at -5.09596 -8.91794 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "CBT-09427-SMT:CUI_CBT-09427-SMT" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "CUI" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DESCRIPTION" "9 mm, 3.6 V, 87 dB, Surface Mount _SMT_, Magnetic Audio Transducer Buzzer" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PACKAGE" "None" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PRICE" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "CBT-09427-SMT" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "AVAILABILITY" "Unavailable" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "CBT-09427-SMT_0_0"
+      (polyline
+        (pts (xy -0.635 1.27) (xy 0.0 1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 1.27) (xy 0.635 1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.635 1.27) (xy 0.635 -1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.635 -1.27) (xy 0.0 -1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 -1.27) (xy -0.635 -1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.635 -1.27) (xy -0.635 1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.635 1.27) (xy 1.905 3.175)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.905 3.175) (xy 1.905 -3.175)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.905 -3.175) (xy 0.635 -1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 1.27) (xy 0.0 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 -1.27) (xy 0.0 -2.54)) (stroke (width 0.254))
+      )
+      (text "+" (at -1.9102 1.27347 0)
+        (effects (font (size 1.78285 1.78285)) (justify bottom left))
+      )
+      (text "-" (at -1.90917 -3.04941 0)
+        (effects (font (size 1.78189 1.78189)) (justify bottom left))
+      )
+      (pin passive line (at 0.0 5.08 270.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 -5.08 90.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "M"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
