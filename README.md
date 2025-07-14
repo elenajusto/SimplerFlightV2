@@ -56,3 +56,10 @@ As per characteristics of BSS816NWH6327XTSA1 N-MOSFET at https://www.digikey.com
 
 ## PCB
 ![PCB](https://github.com/elenajusto/SimplerFlightV2/blob/main/Images/pcb.png)
+
+## Dimensions
+94mm x 74mm
+
+![Dimension 1](https://github.com/elenajusto/SimplerFlightV2/blob/main/Images/dimension1.png)
+
+![Dimension 2](https://github.com/elenajusto/SimplerFlightV2/blob/main/Images/dimension2.png)
