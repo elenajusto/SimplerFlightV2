@@ -1726,7 +1726,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 101.6) (xy 242.57 101.6)
+			(xy 220.98 101.6) (xy 241.3 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2076,7 +2076,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 109.22) (xy 242.57 111.76)
+			(xy 241.3 109.22) (xy 241.3 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2296,7 +2296,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 109.22) (xy 123.19 109.22)
+			(xy 96.52 109.22) (xy 125.73 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2356,7 +2356,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 81.28) (xy 115.57 81.28)
+			(xy 125.73 81.28) (xy 115.57 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2486,7 +2486,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 109.22) (xy 123.19 81.28)
+			(xy 125.73 109.22) (xy 125.73 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2546,7 +2546,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 111.76) (xy 250.19 111.76)
+			(xy 241.3 111.76) (xy 250.19 111.76)
 		)
 		(stroke
 			(width 0)
@@ -31354,7 +31354,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 252.984 80.01 0)
 			(effects
 				(font
@@ -31423,7 +31423,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "15pF"
 			(at 261.874 105.41 0)
 			(effects
 				(font
@@ -31759,7 +31759,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 241.808 80.01 0)
 			(effects
 				(font
@@ -31812,7 +31812,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 242.57 105.41 180)
+		(at 241.3 105.41 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31820,15 +31820,15 @@
 		(dnp no)
 		(uuid "6ccaadce-7cdb-4677-b0e0-9f8bd5b80f57")
 		(property "Reference" "R13"
-			(at 239.395 106.045 0)
+			(at 238.125 106.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 239.395 104.267 0)
+		(property "Value" "2.2kR"
+			(at 237.236 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31836,7 +31836,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 244.348 105.41 90)
+			(at 243.078 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31845,7 +31845,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 242.57 105.41 0)
+			(at 241.3 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31854,7 +31854,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 242.57 105.41 0)
+			(at 241.3 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32092,8 +32092,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 247.015 104.267 0)
+		(property "Value" "2.2kR"
+			(at 246.126 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32225,7 +32225,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 118.364 86.106 0)
 			(effects
 				(font
@@ -32286,7 +32286,7 @@
 		(dnp no)
 		(uuid "a908ccb7-183b-40b0-9786-8811a7d96045")
 		(property "Reference" "C20"
-			(at 27.432 83.82 0)
+			(at 25.654 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32294,8 +32294,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 27.432 86.36 0)
+		(property "Value" "100nF"
+			(at 25.654 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32428,7 +32428,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "15pF"
 			(at 272.034 105.41 0)
 			(effects
 				(font
@@ -32554,7 +32554,7 @@
 		(dnp no)
 		(uuid "e8124c99-8997-434d-a318-71e1e20839fb")
 		(property "Reference" "C24"
-			(at 228.6 117.094 90)
+			(at 228.346 117.094 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32562,8 +32562,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 229.362 115.316 90)
+		(property "Value" "100nF"
+			(at 228.346 115.062 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32630,8 +32630,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 137.795 96.647 0)
+		(property "Value" "10kR"
+			(at 137.16 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
