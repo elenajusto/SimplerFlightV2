@@ -31509,7 +31509,7 @@
 		)
 		(uuid "126abff5-c7cb-4eff-8384-36b4dfd70eed")
 	)
-	(hierarchical_label "5V_SERVO"
+	(hierarchical_label "5V_CAM"
 		(shape input)
 		(at 123.19 59.69 90)
 		(effects
