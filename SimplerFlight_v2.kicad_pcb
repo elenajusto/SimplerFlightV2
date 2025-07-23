@@ -103,6 +103,7 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
+			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -30004,7 +30005,7 @@
 		(layer "Edge.Cuts")
 		(uuid "cab2297a-adbc-4c99-84fc-c23676277c8b")
 	)
-	(gr_text "Made by\nElena"
+	(gr_text "Made by\nAdi\nElena"
 		(at 145.923 110.236 0)
 		(layer "F.SilkS")
 		(uuid "00174f57-9032-4529-a926-21324331a056")

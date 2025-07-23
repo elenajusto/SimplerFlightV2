@@ -2284,6 +2284,14 @@
 		(uuid "53e8331b-e3ee-4f29-9865-1e61d6ec2696")
 	)
 	(no_connect
+		(at 110.49 106.68)
+		(uuid "6275b9c7-c6f7-4575-ab18-82170c5cca00")
+	)
+	(no_connect
+		(at 110.49 109.22)
+		(uuid "80167f3b-5505-4674-953a-d8971c8d5e62")
+	)
+	(no_connect
 		(at 110.49 137.16)
 		(uuid "830c5419-3fda-41c7-b9ca-a59128cbea13")
 	)
@@ -2294,6 +2302,10 @@
 	(no_connect
 		(at 110.49 139.7)
 		(uuid "91937a4f-3d85-4436-b6c7-79569c14ec76")
+	)
+	(no_connect
+		(at 110.49 116.84)
+		(uuid "ac5cb9bb-f8a0-4dbe-a022-407add24fcf5")
 	)
 	(no_connect
 		(at 146.05 144.78)
@@ -2525,16 +2537,6 @@
 		)
 		(uuid "22a027f3-9f59-46ce-8fc6-d23dea361f05")
 	)
-	(wire
-		(pts
-			(xy 92.71 109.22) (xy 110.49 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22e8bdc3-bdb0-4c29-ad89-2c894d5fd98d")
-	)
 	(polyline
 		(pts
 			(xy 67.31 76.2) (xy 31.75 76.2)
@@ -2634,16 +2636,6 @@
 			(type default)
 		)
 		(uuid "3e136280-bf79-4bd8-bc29-b0445cf8d640")
-	)
-	(wire
-		(pts
-			(xy 92.71 106.68) (xy 110.49 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43bf1751-e522-4bd2-998f-87ce7d277bc5")
 	)
 	(wire
 		(pts
@@ -3044,16 +3036,6 @@
 			(type default)
 		)
 		(uuid "b5e06e27-ec89-4d3d-a6d0-5652b335d813")
-	)
-	(wire
-		(pts
-			(xy 92.71 116.84) (xy 110.49 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7db0ad6-ae38-4cdc-822e-4589772afa90")
 	)
 	(wire
 		(pts
@@ -31931,16 +31913,6 @@
 		)
 		(uuid "24351263-076b-424d-92a7-09269efbfbfb")
 	)
-	(label "BARO_INT"
-		(at 95.25 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "27894800-059b-4c76-b914-c4539942b0bc")
-	)
 	(label "12C1_SDA"
 		(at 154.94 142.24 0)
 		(effects
@@ -31971,16 +31943,6 @@
 		)
 		(uuid "365716c6-1bd3-469c-93ee-9baf1016ddd3")
 	)
-	(label "IMU_RST"
-		(at 95.25 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "471dda8d-c79f-4c43-88a3-751cd27b4a17")
-	)
 	(label "SYS_JTCK-SWCLK"
 		(at 154.94 111.76 0)
 		(effects
@@ -31990,16 +31952,6 @@
 			(justify left bottom)
 		)
 		(uuid "5b4173bc-bdf5-44e4-8708-f79f907328f1")
-	)
-	(label "IMU_INT"
-		(at 95.25 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6f88dce6-1acc-4d95-a66f-af343186882c")
 	)
 	(label "NRST"
 		(at 96.52 76.2 0)
@@ -32224,28 +32176,6 @@
 		)
 		(uuid "0e3841dc-0bb7-4a28-9970-329a5d5a8289")
 	)
-	(hierarchical_label "BARO_INT"
-		(shape input)
-		(at 92.71 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0fc88ebe-5fb8-4a42-aad2-92edcef7b095")
-	)
-	(hierarchical_label "IMU_RST"
-		(shape output)
-		(at 92.71 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "20a00115-57a4-4324-9abe-0e4213c13b2e")
-	)
 	(hierarchical_label "FLASH_MEM_CS"
 		(shape output)
 		(at 92.71 111.76 180)
@@ -32333,17 +32263,6 @@
 			(justify right)
 		)
 		(uuid "5958da39-307c-4f5a-bfff-0c368b58b8c4")
-	)
-	(hierarchical_label "IMU_INT"
-		(shape input)
-		(at 92.71 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "60e4056b-a543-45db-bf1e-29d51e36d732")
 	)
 	(hierarchical_label "+3V3"
 		(shape output)

@@ -116,12 +116,12 @@
   },
   "schematic": {
     "selection_filter": {
-      "graphics": true,
-      "images": true,
+      "graphics": false,
+      "images": false,
       "labels": true,
       "lockedItems": false,
       "otherItems": true,
-      "pins": true,
+      "pins": false,
       "symbols": true,
       "text": true,
       "wires": true
