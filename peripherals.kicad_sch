@@ -32697,7 +32697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CBT-09427-SMT:CUI_CBT-09427-SMT"
+		(property "Footprint" "CBT_09427_SMT_TR:CUI_CBT-09427-SMT"
 			(at 238.76 57.15 0)
 			(effects
 				(font
