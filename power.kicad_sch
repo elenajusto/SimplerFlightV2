@@ -3118,6 +3118,16 @@
 		)
 		(uuid "3cef95a3-5f5c-4845-a898-b55be04cd0f5")
 	)
+	(text "Cinx"
+		(exclude_from_sim no)
+		(at 102.362 33.782 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "3ed0ca3c-ebc0-45b0-b904-4cb1616f2bae")
+	)
 	(text "Output: 3.3V\n"
 		(exclude_from_sim no)
 		(at 78.486 184.15 0)
@@ -38915,7 +38925,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 98.7552 40.64 0)
 			(effects
 				(font
@@ -38924,7 +38934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "YAGEO CC0603KRX7R9BB104"
+		(property "Datasheet" "FH 0805F104M500NT"
 			(at 97.79 36.83 0)
 			(effects
 				(font
