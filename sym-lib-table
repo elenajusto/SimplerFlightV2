@@ -18,4 +18,5 @@
   (lib (name "5016")(type "KiCad")(uri "${KIPRJMOD}/Components/5016/5016.kicad_sym")(options "")(descr ""))
   (lib (name "CBT-09427-SMT")(type "KiCad")(uri "${KIPRJMOD}/Components/CBT_09427_SMT_TR/CBT-09427-SMT.kicad_sym")(options "")(descr ""))
   (lib (name "TPS56A37RPAR")(type "KiCad")(uri "${KIPRJMOD}/Components/TPS56A37RPAR/KiCADv6/2025-07-13_07-44-48.kicad_sym")(options "")(descr ""))
+  (lib (name "74438357033")(type "KiCad")(uri "${KIPRJMOD}/Components/74438357033/WE-MAPI_4030.kicad_sym")(options "")(descr ""))
 )

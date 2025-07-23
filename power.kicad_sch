@@ -35918,7 +35918,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
+		(property "Footprint" "74438357033:WE-MAPI_4030"
 			(at 184.15 31.75 0)
 			(effects
 				(font
@@ -35927,7 +35927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "FTC404030S3R3MGCA"
 			(at 184.15 31.75 0)
 			(effects
 				(font
