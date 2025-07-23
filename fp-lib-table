@@ -19,4 +19,6 @@
   (lib (name "CBT_09427_SMT_TR")(type "KiCad")(uri "${KIPRJMOD}/Components/CBT_09427_SMT_TR")(options "")(descr ""))
   (lib (name "TPS56A37RPAR")(type "KiCad")(uri "${KIPRJMOD}/Components/TPS56A37RPAR/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "74438357033")(type "KiCad")(uri "${KIPRJMOD}/Components/74438357033")(options "")(descr ""))
+  (lib (name "1724480002")(type "KiCad")(uri "${KIPRJMOD}/Components/1724480002")(options "")(descr ""))
+  (lib (name "B3B_XH_A")(type "KiCad")(uri "${KIPRJMOD}/Components/B3B_XH_A")(options "")(descr ""))
 )
