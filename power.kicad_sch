@@ -35850,7 +35850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 202.8952 40.64 0)
 			(effects
 				(font
@@ -35859,7 +35859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "HRE CGA1210X6S106K350QT"
 			(at 201.93 36.83 0)
 			(effects
 				(font
@@ -36783,7 +36783,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 213.0552 40.64 0)
 			(effects
 				(font
@@ -36792,7 +36792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "HRE CGA1210X6S106K350QT"
 			(at 212.09 36.83 0)
 			(effects
 				(font
