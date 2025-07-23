@@ -3308,6 +3308,17 @@
 		)
 		(uuid "97a5d8e6-87fc-449d-86fa-90f91ddc28d5")
 	)
+	(text "Max Voltage Rating for Vin Capacitors: 50V"
+		(exclude_from_sim no)
+		(at 77.216 26.924 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a261c701-fd91-4c2d-9afd-23b3cf4a65a1")
+	)
 	(text "Power Supply - MCU - 3V3"
 		(exclude_from_sim no)
 		(at 104.14 156.21 0)
@@ -34700,7 +34711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
 			(at 78.4352 40.64 0)
 			(effects
 				(font
@@ -34709,7 +34720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "FS55X156K101EGG"
 			(at 77.47 36.83 0)
 			(effects
 				(font
@@ -37102,7 +37113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
 			(at 88.5952 40.64 0)
 			(effects
 				(font
@@ -37111,7 +37122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "FS55X156K101EGG"
 			(at 87.63 36.83 0)
 			(effects
 				(font
@@ -38904,7 +38915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 98.7552 40.64 0)
 			(effects
 				(font
@@ -38913,7 +38924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "YAGEO CC0603KRX7R9BB104"
 			(at 97.79 36.83 0)
 			(effects
 				(font
