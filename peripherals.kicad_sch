@@ -2204,6 +2204,26 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 58.42) (xy 50.8 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12f3cdcb-c20a-4a6f-93fd-a4d81f164007")
+	)
+	(wire
+		(pts
+			(xy 45.72 68.58) (xy 71.12 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14725b8c-52c7-4977-a37f-0fdfdc8f4c0f")
+	)
+	(wire
+		(pts
 			(xy 250.19 114.3) (xy 247.65 114.3)
 		)
 		(stroke
@@ -2352,6 +2372,16 @@
 		)
 		(uuid "486a17d4-1496-4c89-90d0-9ea73ff16790")
 	)
+	(wire
+		(pts
+			(xy 50.8 58.42) (xy 50.8 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49479ca2-0318-4a3a-9d40-f3e2596172f8")
+	)
 	(polyline
 		(pts
 			(xy 25.4 161.29) (xy 25.4 100.33)
@@ -2481,16 +2511,6 @@
 			(type default)
 		)
 		(uuid "80539413-37eb-49f2-920b-6df36f2b8392")
-	)
-	(wire
-		(pts
-			(xy 45.72 63.5) (xy 45.72 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8117f47f-a298-4caf-8673-fdcfce60dd79")
 	)
 	(polyline
 		(pts
@@ -2734,13 +2754,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 68.58) (xy 45.72 68.58)
+			(xy 71.12 63.5) (xy 57.15 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c82f3678-db70-4837-8968-fe67fa465449")
+		(uuid "c8b078f5-bfc4-40c2-83c8-447d4a8b4e19")
 	)
 	(wire
 		(pts
@@ -2794,23 +2814,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 63.5) (xy 71.12 63.5)
+			(xy 57.15 63.5) (xy 57.15 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d3bdf132-bca3-4f8e-91d8-3051df61c104")
-	)
-	(wire
-		(pts
-			(xy 45.72 68.58) (xy 45.72 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5a6b932-2c16-40a6-a68e-f0658778d5bb")
+		(uuid "d916da77-b2fe-4a2b-b109-c56f2b9387ff")
 	)
 	(polyline
 		(pts
@@ -31467,12 +31477,12 @@
 	)
 	(hierarchical_label "5V_SERVO"
 		(shape input)
-		(at 45.72 63.5 90)
+		(at 45.72 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "02fbbff4-bd43-4ded-8b3c-079953e6bba9")
 	)
@@ -31533,7 +31543,7 @@
 	)
 	(hierarchical_label "SERVO_PWM"
 		(shape input)
-		(at 67.31 63.5 180)
+		(at 45.72 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32089,7 +32099,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 71.12 0)
+		(at 50.8 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32097,7 +32107,7 @@
 		(dnp no)
 		(uuid "505f495b-95b0-41fe-9cc1-ef9b332f91e2")
 		(property "Reference" "#PWR051"
-			(at 45.72 77.47 0)
+			(at 50.8 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32106,7 +32116,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 75.438 0)
+			(at 50.8 64.008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32114,7 +32124,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 71.12 0)
+			(at 50.8 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32123,7 +32133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 71.12 0)
+			(at 50.8 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32132,7 +32142,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 71.12 0)
+			(at 50.8 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
