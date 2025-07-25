@@ -31519,17 +31519,6 @@
 		)
 		(uuid "126abff5-c7cb-4eff-8384-36b4dfd70eed")
 	)
-	(hierarchical_label "5V_CAM"
-		(shape input)
-		(at 123.19 59.69 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "31822424-30b9-49fd-8021-9fc998e2cf05")
-	)
 	(hierarchical_label "CAM_2_EN"
 		(shape input)
 		(at 138.43 147.32 180)
@@ -31694,6 +31683,17 @@
 			(justify right)
 		)
 		(uuid "d45d36ff-01c4-434d-af94-d2f5e8f4a104")
+	)
+	(hierarchical_label "+3V3"
+		(shape input)
+		(at 123.19 59.69 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3766a6a-a92b-43f2-9806-31c9af0c3d4d")
 	)
 	(hierarchical_label "CAM_1_EN"
 		(shape input)
