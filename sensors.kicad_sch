@@ -32160,7 +32160,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "32 kHz"
 			(at 264.16 92.71 0)
 			(effects
 				(font
@@ -32168,7 +32168,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_0603-2Pin_6.0x3.5mm_HandSoldering"
+		(property "Footprint" "ABS07_32_768KHZ_T:XTAL_ABS07-32.768KHZ-T"
 			(at 264.16 97.79 0)
 			(effects
 				(font
