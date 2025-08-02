@@ -2349,6 +2349,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 134.62) (xy 110.49 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "024a10f7-3dab-4fbc-bd26-b3201b144474")
+	)
+	(wire
+		(pts
 			(xy 151.13 142.24) (xy 161.29 142.24)
 		)
 		(stroke
@@ -2416,16 +2426,6 @@
 			(type default)
 		)
 		(uuid "0d5b0bc0-10b2-4c67-ac25-2bc4d3b1d438")
-	)
-	(wire
-		(pts
-			(xy 92.71 132.08) (xy 110.49 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f1cbca2-6635-44d4-b0a0-70099d85823f")
 	)
 	(wire
 		(pts
@@ -2746,6 +2746,16 @@
 			(type default)
 		)
 		(uuid "595507c7-25f5-4992-9726-143ce7720c85")
+	)
+	(wire
+		(pts
+			(xy 92.71 132.08) (xy 110.49 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fbf1185-f172-48e1-b518-06ed7bc2a29f")
 	)
 	(wire
 		(pts
@@ -3196,16 +3206,6 @@
 			(type default)
 		)
 		(uuid "d79e94a4-496e-4d9d-a318-0855899d668d")
-	)
-	(wire
-		(pts
-			(xy 92.71 134.62) (xy 110.49 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de2dd276-47e6-4483-b6eb-6629af551d1b")
 	)
 	(wire
 		(pts
@@ -31859,16 +31859,6 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
 	)
-	(label "CAM_3_EN"
-		(at 95.25 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "05a2b7b8-7266-4e11-aabb-41c0cc92187e")
-	)
 	(label "SD_DET"
 		(at 95.25 104.14 0)
 		(effects
@@ -31909,6 +31899,16 @@
 		)
 		(uuid "365716c6-1bd3-469c-93ee-9baf1016ddd3")
 	)
+	(label "CAM_3_EN"
+		(at 95.25 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "894a1bf7-2566-4290-a169-274bc8f4b707")
+	)
 	(label "SD_MEM_CS"
 		(at 95.25 114.3 0)
 		(effects
@@ -31919,16 +31919,6 @@
 		)
 		(uuid "89ffa34c-13ce-40f3-a4e4-2780252dbbce")
 	)
-	(label "CAM_2_EN"
-		(at 95.25 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b67de5d0-620e-45cb-8d91-f880adb940aa")
-	)
 	(label "USART6_RX"
 		(at 95.25 121.92 0)
 		(effects
@@ -31938,6 +31928,16 @@
 			(justify left bottom)
 		)
 		(uuid "bb2a1145-8f7d-4d21-921e-ab56903aeaf3")
+	)
+	(label "CAM_2_EN"
+		(at 95.25 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7f80067-7227-4128-96cc-35ffeee8f33f")
 	)
 	(label "CAM_1_EN"
 		(at 95.25 129.54 0)
@@ -32013,14 +32013,14 @@
 	)
 	(hierarchical_label "CAM_2_EN"
 		(shape output)
-		(at 92.71 132.08 180)
+		(at 92.71 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "0e3841dc-0bb7-4a28-9970-329a5d5a8289")
+		(uuid "348cff70-cd0f-495c-a588-c5cf61da07f5")
 	)
 	(hierarchical_label "FLASH_MEM_CS"
 		(shape output)
@@ -32176,17 +32176,6 @@
 		)
 		(uuid "81f58b63-199d-4e76-b32f-6e4eb8969b9e")
 	)
-	(hierarchical_label "CAM_3_EN"
-		(shape output)
-		(at 92.71 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "93604684-c849-4f35-b58c-4b37fc4c803d")
-	)
 	(hierarchical_label "USART1_TX"
 		(shape bidirectional)
 		(at 161.29 134.62 0)
@@ -32252,6 +32241,17 @@
 			(justify right)
 		)
 		(uuid "d6d3ec58-55ca-4ffd-a6ef-6507ca8e2df6")
+	)
+	(hierarchical_label "CAM_3_EN"
+		(shape output)
+		(at 92.71 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d821c341-0088-4619-bf1e-d5cf6b215ee8")
 	)
 	(hierarchical_label "I2C1_SCL"
 		(shape bidirectional)
