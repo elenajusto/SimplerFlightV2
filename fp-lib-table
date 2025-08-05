@@ -22,4 +22,6 @@
   (lib (name "1724480002")(type "KiCad")(uri "${KIPRJMOD}/Components/1724480002")(options "")(descr ""))
   (lib (name "B3B_XH_A")(type "KiCad")(uri "${KIPRJMOD}/Components/B3B_XH_A")(options "")(descr ""))
   (lib (name "ABS07_32_768KHZ_T")(type "KiCad")(uri "${KIPRJMOD}/Components/ABS07_32_768KHZ_T")(options "")(descr ""))
+  (lib (name "USB")(type "KiCad")(uri "${KIPRJMOD}/Components/10103592-0001LF")(options "")(descr ""))
+  (lib (name "Buzzer")(type "KiCad")(uri "${KIPRJMOD}/Components/CMT-7525-80-SMT-TR")(options "")(descr ""))
 )

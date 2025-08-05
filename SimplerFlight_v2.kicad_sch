@@ -30675,7 +30675,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43f86bbf-b400-4106-89aa-769ad3eb22f3")
-		(property "Reference" "TP7"
+		(property "Reference" "SDA1"
 			(at 179.07 106.68 0)
 			(effects
 				(font
@@ -30778,7 +30778,7 @@
 		(instances
 			(project "SimplerFlight_v2"
 				(path "/05521696-5bcb-4d0e-9e87-bbc993e58ce4"
-					(reference "TP7")
+					(reference "SDA1")
 					(unit 1)
 				)
 			)
@@ -30924,7 +30924,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6cb46495-03d1-44b7-9320-c2bee6e17e7d")
-		(property "Reference" "TP6"
+		(property "Reference" "NRST1"
 			(at 181.61 151.638 0)
 			(effects
 				(font
@@ -31027,7 +31027,7 @@
 		(instances
 			(project "SimplerFlight_v2"
 				(path "/05521696-5bcb-4d0e-9e87-bbc993e58ce4"
-					(reference "TP6")
+					(reference "NRST1")
 					(unit 1)
 				)
 			)
@@ -31113,7 +31113,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74d72859-82b3-494a-9546-e42fb205c2d1")
-		(property "Reference" "TP1"
+		(property "Reference" "SCK1"
 			(at 133.35 170.434 0)
 			(effects
 				(font
@@ -31216,7 +31216,7 @@
 		(instances
 			(project ""
 				(path "/05521696-5bcb-4d0e-9e87-bbc993e58ce4"
-					(reference "TP1")
+					(reference "SCK1")
 					(unit 1)
 				)
 			)
@@ -31231,7 +31231,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75e92623-156f-4a6a-bac7-75e1ded7d017")
-		(property "Reference" "TP12"
+		(property "Reference" "ENCB1"
 			(at 106.426 125.984 0)
 			(effects
 				(font
@@ -31334,7 +31334,7 @@
 		(instances
 			(project "SimplerFlight_v2"
 				(path "/05521696-5bcb-4d0e-9e87-bbc993e58ce4"
-					(reference "TP12")
+					(reference "ENCB1")
 					(unit 1)
 				)
 			)
@@ -31486,7 +31486,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90d99c51-ac87-4390-9a19-74cfc3774d38")
-		(property "Reference" "TP8"
+		(property "Reference" "SCL1"
 			(at 176.53 106.68 0)
 			(effects
 				(font
@@ -31589,7 +31589,7 @@
 		(instances
 			(project "SimplerFlight_v2"
 				(path "/05521696-5bcb-4d0e-9e87-bbc993e58ce4"
-					(reference "TP8")
+					(reference "SCL1")
 					(unit 1)
 				)
 			)
@@ -31604,7 +31604,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b266094-f171-44fd-b153-b2562a91a0ba")
-		(property "Reference" "TP4"
+		(property "Reference" "SWDIO1"
 			(at 176.53 151.638 0)
 			(effects
 				(font
@@ -31707,7 +31707,7 @@
 		(instances
 			(project "SimplerFlight_v2"
 				(path "/05521696-5bcb-4d0e-9e87-bbc993e58ce4"
-					(reference "TP4")
+					(reference "SWDIO1")
 					(unit 1)
 				)
 			)
@@ -31722,7 +31722,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ba5f980-99dc-408a-95a1-d8b2982809e8")
-		(property "Reference" "TP13"
+		(property "Reference" "ENCA1"
 			(at 109.22 125.984 0)
 			(effects
 				(font
@@ -31825,7 +31825,7 @@
 		(instances
 			(project "SimplerFlight_v2"
 				(path "/05521696-5bcb-4d0e-9e87-bbc993e58ce4"
-					(reference "TP13")
+					(reference "ENCA1")
 					(unit 1)
 				)
 			)
@@ -31970,7 +31970,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b6cda1cb-3827-42e3-b5bb-5071b89fd37e")
-		(property "Reference" "TP11"
+		(property "Reference" "PWM1"
 			(at 88.9 125.984 0)
 			(effects
 				(font
@@ -32073,7 +32073,7 @@
 		(instances
 			(project "SimplerFlight_v2"
 				(path "/05521696-5bcb-4d0e-9e87-bbc993e58ce4"
-					(reference "TP11")
+					(reference "PWM1")
 					(unit 1)
 				)
 			)
@@ -32159,7 +32159,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eaca778b-ab4e-49e9-b1e4-928aa0c7d78a")
-		(property "Reference" "TP5"
+		(property "Reference" "SWCLK1"
 			(at 179.07 151.638 0)
 			(effects
 				(font
@@ -32262,7 +32262,7 @@
 		(instances
 			(project "SimplerFlight_v2"
 				(path "/05521696-5bcb-4d0e-9e87-bbc993e58ce4"
-					(reference "TP5")
+					(reference "SWCLK1")
 					(unit 1)
 				)
 			)
@@ -32277,7 +32277,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef25a34e-5a81-4ceb-8760-77068bfaa343")
-		(property "Reference" "TP3"
+		(property "Reference" "MISO1"
 			(at 138.43 170.688 0)
 			(effects
 				(font
@@ -32380,7 +32380,7 @@
 		(instances
 			(project "SimplerFlight_v2"
 				(path "/05521696-5bcb-4d0e-9e87-bbc993e58ce4"
-					(reference "TP3")
+					(reference "MISO1")
 					(unit 1)
 				)
 			)
@@ -32395,7 +32395,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f54aacce-1b58-4b2d-bcfe-52727e38b029")
-		(property "Reference" "TP2"
+		(property "Reference" "MOSI1"
 			(at 135.89 170.688 0)
 			(effects
 				(font
@@ -32498,7 +32498,7 @@
 		(instances
 			(project "SimplerFlight_v2"
 				(path "/05521696-5bcb-4d0e-9e87-bbc993e58ce4"
-					(reference "TP2")
+					(reference "MOSI1")
 					(unit 1)
 				)
 			)
