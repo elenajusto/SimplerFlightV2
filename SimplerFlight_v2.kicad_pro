@@ -522,7 +522,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Manufacturing/SimplerFlightGerbers_v11",
+      "plot": "Manufacturing/SimplerFlightGerbers_v12",
       "pos_files": "Manufacturing/",
       "specctra_dsn": "",
       "step": "SimplerFlight_v2.stl",

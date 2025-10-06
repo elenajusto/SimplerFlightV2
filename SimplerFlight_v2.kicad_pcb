@@ -146,7 +146,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "Manufacturing/SimplerFlightGerbers_v11")
+			(outputdirectory "Manufacturing/SimplerFlightGerbers_v12")
 		)
 	)
 	(net 0 "")
