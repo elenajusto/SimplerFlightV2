@@ -146,7 +146,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "Manufacturing/SimplerFlightGerbers_v8")
+			(outputdirectory "Manufacturing/SimplerFlightGerbers_v10")
 		)
 	)
 	(net 0 "")
@@ -774,7 +774,7 @@
 		(descr "BSS816NWH6327XTSA1")
 		(tags "MOSFET (N-Channel)")
 		(property "Reference" "Q6"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "432bf452-29c6-416e-8e1d-244ca73f8440")
@@ -786,7 +786,7 @@
 			)
 		)
 		(property "Value" "BSS816NWH6327XTSA1"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "77b78789-230f-4833-bed4-fb793463de06")
@@ -798,7 +798,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSS816NW-DS-v02_03-en.pdf?fileId=db3a304335113a6301351e704a2e1332"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bfddb78e-cceb-4aac-98df-e479b418c03e")
@@ -810,7 +810,7 @@
 			)
 		)
 		(property "Description" "BSS816NWH6327XTSA1 N-Channel MOSFET, 1.4 A, 20 V OptiMOS 2, 3-Pin SOT-323 Infineon"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "de71f9ef-0f94-40fc-8590-357eaf170f9f")
@@ -890,56 +890,6 @@
 		(sheetname "/Peripherals/")
 		(sheetfile "peripherals.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start -0.375 1)
-			(end -0.375 -1)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5e4df4d8-a9b2-43d1-8bb9-ba70ef7c8801")
-		)
-		(fp_line
-			(start 0.375 1)
-			(end -0.375 1)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4185b821-7126-4934-9a1c-c2f698318f85")
-		)
-		(fp_line
-			(start -0.375 -1)
-			(end 0.375 -1)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "be77e09e-57ba-449b-9942-f2f9084dd688")
-		)
-		(fp_line
-			(start 0.375 -1)
-			(end 0.375 1)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ffa3db26-737c-494f-8bc1-c1bbc22c7da1")
-		)
-		(fp_line
-			(start -1.475 -1.15)
-			(end -0.725 -1.15)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2c710ecc-839e-4fd2-a1f4-173bc2ccb782")
-		)
 		(fp_line
 			(start -1.725 1.35)
 			(end -1.725 -1.35)
@@ -1031,7 +981,7 @@
 			(uuid "d0c110ea-b665-4d9a-a0c1-5708ceef6ae6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "348b635b-3acd-45e8-903b-4d53af1725c8")
 			(effects
@@ -1087,7 +1037,7 @@
 		(at 145.379351 111.645301)
 		(tags "S05B-PASK-2LFSN ")
 		(property "Reference" "J2"
-			(at 4 2.654699 0)
+			(at 0.020649 -1.575301 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "4ab74e2a-a83b-4918-a0ac-328af438df15")
@@ -1140,28 +1090,8 @@
 		(sheetfile "peripherals.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start -2.1214 -3.627001)
-			(end -2.1214 1.478534)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7b5e3100-f53e-49df-8688-5dcd6565c49c")
-		)
-		(fp_line
-			(start -2.1214 2.721467)
-			(end -2.1214 8.3364)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7bb748a2-48db-48e4-94bd-06ab61b9c3de")
-		)
-		(fp_line
 			(start -2.1214 8.3364)
-			(end 10.1214 8.3364)
+			(end 8.5 8.3364)
 			(stroke
 				(width 0.1524)
 				(type solid)
@@ -1169,39 +1099,9 @@
 			(layer "F.SilkS")
 			(uuid "c52aa04a-ea16-4f4f-8c11-8adbc00b36d1")
 		)
-		(fp_line
-			(start 10.1214 -3.627001)
-			(end -2.1214 -3.627001)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2f2994b1-aa00-4702-8b7a-8a99e17ce3a1")
-		)
-		(fp_line
-			(start 10.1214 1.478534)
-			(end 10.1214 -3.627001)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "382faba8-2b47-4a34-9f89-a4a39dc511aa")
-		)
-		(fp_line
-			(start 10.1214 8.3364)
-			(end 10.1214 2.721467)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "fc17b770-14e5-4afa-91c4-a2fb18678278")
-		)
 		(fp_circle
-			(center -3.5 2)
-			(end -3.119 2)
+			(center -2 9.5)
+			(end -1.619 9.5)
 			(stroke
 				(width 0.508)
 				(type solid)
@@ -1211,8 +1111,8 @@
 			(uuid "50a57975-ebd5-4a7c-b5da-adbcd7335ad3")
 		)
 		(fp_circle
-			(center -3.5 2)
-			(end -3.119 2)
+			(center -2 9.5)
+			(end -1.619 9.5)
 			(stroke
 				(width 0.508)
 				(type solid)
@@ -1290,16 +1190,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "ddfb2406-0645-4d55-aa59-a9df9ffdcc62")
-		)
-		(fp_line
-			(start 9.9944 8.2094)
-			(end 9.9944 -3.500001)
-			(stroke
-				(width 0.0254)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "63e4a2fc-595a-4b7d-9f84-4268e81b8267")
 		)
 		(fp_circle
 			(center 0 -1.905)
@@ -3363,46 +3253,6 @@
 		(sheetname "/Storage/")
 		(sheetfile "storage.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start -6.7 4.2)
-			(end -6.7 -7.05)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2d3866e4-0137-40e4-9373-ecdef6239fd4")
-		)
-		(fp_line
-			(start -6.7 -7.05)
-			(end -4.826 -7.05)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d1cf4905-a349-442f-9f59-e8387249da51")
-		)
-		(fp_line
-			(start 7.1 -7.05)
-			(end 7.1 4.2)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "da136d2a-6813-448e-8bd3-f07f3394a03c")
-		)
-		(fp_line
-			(start 7.1 -7.05)
-			(end 5.7 -7.05)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8196647f-d445-4d96-92fe-ce247f7c2e70")
-		)
 		(fp_circle
 			(center 3.8 7.9)
 			(end 3.92 7.9)
@@ -4475,7 +4325,7 @@
 		(at 119.055601 111.713902)
 		(tags "S05B-PASK-2LFSN ")
 		(property "Reference" "J12"
-			(at 4 2.586098 0)
+			(at 1.954399 -2.813902 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "07700402-66ca-4fca-b6a0-53fcdff58b76")
@@ -4528,26 +4378,6 @@
 		(sheetfile "peripherals.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start -2.1214 -3.627001)
-			(end -2.1214 1.478534)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "96f7fee0-955f-4ab5-bf81-f2649a98933a")
-		)
-		(fp_line
-			(start -2.1214 2.721467)
-			(end -2.1214 8.3364)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d59bf1b7-0401-47ef-a5d7-cf85c4e11d5a")
-		)
-		(fp_line
 			(start -2.1214 8.3364)
 			(end 10.1214 8.3364)
 			(stroke
@@ -4556,36 +4386,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "7bac343c-230f-4a8d-948c-211a12059fa3")
-		)
-		(fp_line
-			(start 10.1214 -3.627001)
-			(end -2.1214 -3.627001)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "68f2a985-259e-46d1-a3b0-c1485d80602f")
-		)
-		(fp_line
-			(start 10.1214 1.478534)
-			(end 10.1214 -3.627001)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8f02400c-7f33-4c16-b7f9-bb6f23857f6c")
-		)
-		(fp_line
-			(start 10.1214 8.3364)
-			(end 10.1214 2.721467)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f2fd95a7-2fb2-4406-8c35-231aa7557a18")
 		)
 		(fp_circle
 			(center -1 9.5)
@@ -6350,7 +6150,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C28"
-			(at -0.1475 1.820599 180)
+			(at -3.2975 0.470599 180)
 			(layer "F.SilkS")
 			(uuid "01b60708-af23-4d57-954c-9d4c52c2151b")
 			(effects
@@ -7254,7 +7054,7 @@
 		(descr "BSS816NWH6327XTSA1")
 		(tags "MOSFET (N-Channel)")
 		(property "Reference" "Q5"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b2f69540-9350-4940-a950-43d52b4a1b94")
@@ -7266,7 +7066,7 @@
 			)
 		)
 		(property "Value" "BSS816NWH6327XTSA1"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "7b431cb1-0359-4fd6-90b9-c9293be441e6")
@@ -7278,7 +7078,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSS816NW-DS-v02_03-en.pdf?fileId=db3a304335113a6301351e704a2e1332"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "53680de8-a902-4eb3-bddf-5d23c25d7542")
@@ -7290,7 +7090,7 @@
 			)
 		)
 		(property "Description" "BSS816NWH6327XTSA1 N-Channel MOSFET, 1.4 A, 20 V OptiMOS 2, 3-Pin SOT-323 Infineon"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "72418be2-1188-4392-9588-24c12404c649")
@@ -7370,56 +7170,6 @@
 		(sheetname "/Peripherals/")
 		(sheetfile "peripherals.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start -0.375 1)
-			(end -0.375 -1)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e8aaefea-8a1b-47e8-956d-a11e6ea7c62a")
-		)
-		(fp_line
-			(start 0.375 1)
-			(end -0.375 1)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2a7b12b0-f95a-40f8-807a-b909d1acdabe")
-		)
-		(fp_line
-			(start -0.375 -1)
-			(end 0.375 -1)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b698d86b-5957-4bb0-aaab-9ae9c9453caa")
-		)
-		(fp_line
-			(start 0.375 -1)
-			(end 0.375 1)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f0d66a08-137d-4b4b-a5e2-866fa5d9d736")
-		)
-		(fp_line
-			(start -1.475 -1.15)
-			(end -0.725 -1.15)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7d0face2-cc37-4365-a159-004fba5ef83a")
-		)
 		(fp_line
 			(start -1.725 1.35)
 			(end -1.725 -1.35)
@@ -7511,7 +7261,7 @@
 			(uuid "af57b1d6-5de8-47b4-95f3-cbfac786729e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "beb880f6-d6d9-4e58-839a-e0ff265119dc")
 			(effects
@@ -8243,36 +7993,6 @@
 		(sheetname "/Sensors/")
 		(sheetfile "sensors.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 3.2 -1.95)
-			(end -4.775 -1.95)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "548b0577-1a24-4c62-bca9-17c90c561075")
-		)
-		(fp_line
-			(start -4.775 -1.95)
-			(end -4.775 1.95)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ff6bff97-e1f9-4919-b809-8e99e8ec4535")
-		)
-		(fp_line
-			(start -4.775 1.95)
-			(end 3.2 1.95)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "89eaa2e4-f13b-4ff4-a237-3032530f781c")
-		)
 		(fp_circle
 			(center 0 0)
 			(end 0.4 0)
@@ -11519,7 +11239,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -3.13 -3.31) (xy -3.37 -3.64) (xy -2.89 -3.64) (xy -3.13 -3.31)
+				(xy -2.24 -4.17) (xy -2.48 -4.5) (xy -2 -4.5) (xy -2.24 -4.17)
 			)
 			(stroke
 				(width 0.12)
@@ -11658,7 +11378,7 @@
 			(net 10 "/Power/+3V3")
 			(pinfunction "VO")
 			(pintype "power_out")
-			(uuid "8a98afe8-711b-4759-8108-2b131890c701")
+			(uuid "17fc0ade-537d-4634-bb30-6b8eaa30a66c")
 		)
 		(pad "3" smd roundrect
 			(at -3.15 2.3 270)
@@ -15595,66 +15315,6 @@
 		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 3.55 -3.05)
-			(end 3.55 -1.8485)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d5fda622-9633-452e-ae6e-a7dadf04b6a8")
-		)
-		(fp_line
-			(start -3.55 -3.05)
-			(end 3.55 -3.05)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "59d0398d-99e4-4aa7-9812-2761ccf11769")
-		)
-		(fp_line
-			(start -3.55 -1.8485)
-			(end -3.55 -3.05)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0ce9167a-ebc2-42f0-8989-ae3dbc6391fd")
-		)
-		(fp_line
-			(start -3.55 1.8485)
-			(end -3.55 3.05)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "86d1b446-1b15-496a-8f33-7e8127aeb195")
-		)
-		(fp_line
-			(start 3.55 3.05)
-			(end 3.55 1.8485)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "33ddbc15-4795-4a87-87a2-4c73dd96ed31")
-		)
-		(fp_line
-			(start -3.55 3.05)
-			(end 3.55 3.05)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6efdadc0-12ea-4210-8b2d-7c3c14ceb7cc")
-		)
 		(fp_circle
 			(center -5.25 0)
 			(end -5.15 0)
@@ -15996,7 +15656,7 @@
 		(descr "BSS816NWH6327XTSA1")
 		(tags "MOSFET (N-Channel)")
 		(property "Reference" "Q7"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2d19b975-1321-4e14-8d4a-839194ac2e2d")
@@ -16008,7 +15668,7 @@
 			)
 		)
 		(property "Value" "BSS816NWH6327XTSA1"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "afed47d3-e422-43ec-b89c-2d40d69b5545")
@@ -16020,7 +15680,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSS816NW-DS-v02_03-en.pdf?fileId=db3a304335113a6301351e704a2e1332"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b9ccefff-e143-468c-bcfa-7ba3a20a9b62")
@@ -16032,7 +15692,7 @@
 			)
 		)
 		(property "Description" "BSS816NWH6327XTSA1 N-Channel MOSFET, 1.4 A, 20 V OptiMOS 2, 3-Pin SOT-323 Infineon"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d5fbc685-f99b-48ad-9315-f003b363e83a")
@@ -16112,56 +15772,6 @@
 		(sheetname "/Peripherals/")
 		(sheetfile "peripherals.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start -0.375 1)
-			(end -0.375 -1)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3e12913e-e286-4316-a318-ac5cecdadf04")
-		)
-		(fp_line
-			(start 0.375 1)
-			(end -0.375 1)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ad616369-dc4e-4b36-9cd7-cada7b159997")
-		)
-		(fp_line
-			(start -0.375 -1)
-			(end 0.375 -1)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "43e3edc3-5816-4bfa-84fc-fd7a404670ef")
-		)
-		(fp_line
-			(start 0.375 -1)
-			(end 0.375 1)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6763b2b7-65d3-4944-89a3-ffb52d5c8cdb")
-		)
-		(fp_line
-			(start -1.475 -1.15)
-			(end -0.725 -1.15)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6c4c5d44-b8ef-4863-9e6d-008bfe4d1af6")
-		)
 		(fp_line
 			(start -1.725 1.35)
 			(end -1.725 -1.35)
@@ -16253,7 +15863,7 @@
 			(uuid "71d68154-14ea-4759-87e6-924205f04cb3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "22b9efd9-7a91-4264-9b87-62df4d2349a3")
 			(effects
@@ -17079,69 +16689,6 @@
 		(sheetfile "peripherals.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -2.6 -6)
-			(end -2.6 -3.7)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "17f3923f-1bad-4d87-b556-d50821b5bf4d")
-		)
-		(fp_line
-			(start -2.6 -6)
-			(end 2.6 -6)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "cffc910b-a9da-4b4b-ad7e-0304d76c6f51")
-		)
-		(fp_line
-			(start 2.6 -6)
-			(end 2.6 -3.7)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "10c1568f-66f3-4f85-82ac-5d283e4e7012")
-		)
-		(fp_arc
-			(start -2.91 3.43)
-			(mid -3.717534 2.530364)
-			(end -4.26 1.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "01757e05-0cf0-401f-8cb7-b15f2d603879")
-		)
-		(fp_arc
-			(start 4.26 1.46)
-			(mid 1.967828 4.043793)
-			(end -1.48 4.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "db8c45e5-9d7c-4514-9d60-44e9c7bcfe41")
-		)
-		(fp_arc
-			(start -4.24 -1.51)
-			(mid -0.803283 -4.433209)
-			(end 3.44 -2.9)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "74e7385c-91a0-4831-952b-12ea10e05232")
-		)
-		(fp_line
 			(start -6.35 1.5)
 			(end -4.93 1.5)
 			(stroke
@@ -17304,17 +16851,6 @@
 			(fill no)
 			(layer "F.Fab")
 			(uuid "482826b5-f191-48b6-97d6-e268395a4140")
-		)
-		(fp_text user "-"
-			(at 4.70379 -1.52203 90)
-			(layer "F.SilkS")
-			(uuid "0f969c70-6789-45d1-b0b2-d2cd4899d32d")
-			(effects
-				(font
-					(size 1.001331 1.001331)
-					(thickness 0.15)
-				)
-			)
 		)
 		(fp_text user "+"
 			(at -5.304011 -2.002802 90)
@@ -17823,10 +17359,10 @@
 		(at 132.13655 111.731801)
 		(tags "S05B-PASK-2LFSN ")
 		(property "Reference" "J10"
-			(at 4 2.568199 0)
+			(at 7.50345 -1.621801 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "bc3af42f-8365-4def-81e3-7c2741672140")
+			(uuid "4aa9fbfd-7765-45f2-bc7f-c233c7df7d32")
 			(effects
 				(font
 					(size 1 1)
@@ -17838,7 +17374,7 @@
 			(at 4 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "8193e183-f7e0-47a8-a285-da204b75e603")
+			(uuid "efc99c30-0ca0-4ff9-a865-53f94a5ee337")
 			(effects
 				(font
 					(size 1 1)
@@ -17850,7 +17386,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cfa218e3-8835-4840-a6fd-62911efc509f")
+			(uuid "257953c4-78d4-4208-8a0e-34b9f5fcb919")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17862,7 +17398,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1535382a-fbae-4b6b-9846-f179b903250b")
+			(uuid "67a113f9-9994-4813-9372-be0cba979506")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17876,26 +17412,6 @@
 		(sheetfile "peripherals.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start -2.1214 -3.627001)
-			(end -2.1214 1.478534)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3e74d863-e523-48ee-a1e8-14732dac8cd4")
-		)
-		(fp_line
-			(start -2.1214 2.721467)
-			(end -2.1214 8.3364)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8bc95cad-accc-4d4b-8a24-ec0c66ea29bb")
-		)
-		(fp_line
 			(start -2.1214 8.3364)
 			(end 10.1214 8.3364)
 			(stroke
@@ -17904,36 +17420,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "79aa75ff-18b1-4275-983d-87f28bf75f3d")
-		)
-		(fp_line
-			(start 10.1214 -3.627001)
-			(end -2.1214 -3.627001)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "71cc771b-87fa-41dc-b450-a761b4c2f55e")
-		)
-		(fp_line
-			(start 10.1214 1.478534)
-			(end 10.1214 -3.627001)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "749afce2-21ca-4765-a000-956f0a76c26f")
-		)
-		(fp_line
-			(start 10.1214 8.3364)
-			(end 10.1214 2.721467)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2a30a7c5-b96e-4ca5-8b29-4f808f70ad00")
 		)
 		(fp_circle
 			(center -1.5 9.5)
@@ -18191,16 +17677,6 @@
 		(sheetname "/Sensors/")
 		(sheetfile "sensors.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start -0.261252 0.735)
-			(end 0.261252 0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "863d2bb0-7361-478b-81a1-2ad04bed8fae")
-		)
 		(fp_line
 			(start -0.261252 -0.735)
 			(end 0.261252 -0.735)
@@ -19864,7 +19340,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at 2.725002 -0.155199 0)
+			(at -2.5964 0 0)
 			(layer "F.SilkS")
 			(uuid "9db3837b-4499-4b52-bf37-d300853619f7")
 			(effects
@@ -25246,7 +24722,7 @@
 		(at 106.000001 111.713902)
 		(tags "S05B-PASK-2LFSN ")
 		(property "Reference" "J9"
-			(at 4 2.586098 0)
+			(at 0.029999 -1.523902 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "93e180f7-465a-4861-84a9-c5a2578666d2")
@@ -25299,26 +24775,6 @@
 		(sheetfile "peripherals.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start -2.1214 -3.627001)
-			(end -2.1214 1.478534)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "90b0e492-b72a-4a53-b6ae-e2267fd41a0f")
-		)
-		(fp_line
-			(start -2.1214 2.721467)
-			(end -2.1214 8.3364)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "85613d37-adcf-496e-9ea7-a853ed9594cb")
-		)
-		(fp_line
 			(start -2.1214 8.3364)
 			(end 10.1214 8.3364)
 			(stroke
@@ -25327,36 +24783,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "ef50b0db-1bc0-40a6-b085-38698c97fc5b")
-		)
-		(fp_line
-			(start 10.1214 -3.627001)
-			(end -2.1214 -3.627001)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0170d8e3-7fb5-4e7d-bc61-69e7ec63f038")
-		)
-		(fp_line
-			(start 10.1214 1.478534)
-			(end 10.1214 -3.627001)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7f0f3e38-f20e-4c89-985c-3f6da05f0690")
-		)
-		(fp_line
-			(start 10.1214 8.3364)
-			(end 10.1214 2.721467)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "442d4976-5d8e-49a9-97c1-0aaf19968aae")
 		)
 		(fp_line
 			(start -2.3001 -3.754001)
