@@ -146,7 +146,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "Manufacturing/SimplerFlightGerbers_v10")
+			(outputdirectory "Manufacturing/SimplerFlightGerbers_v11")
 		)
 	)
 	(net 0 "")
@@ -30886,17 +30886,6 @@
 		(layer "F.SilkS")
 		(uuid "4796b864-52a5-417f-8281-1b4ae84c7f79")
 	)
-	(gr_rect
-		(start 114 72.6806)
-		(end 125.7534 95.693)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "a78d1232-e48c-4090-8dd3-32c30fef6bcb")
-	)
 	(gr_line
 		(start 99.228598 70)
 		(end 103.728598 70)
@@ -30919,14 +30908,15 @@
 		(layer "Edge.Cuts")
 		(uuid "83accf81-6717-4b8e-9af2-76ec31c55252")
 	)
-	(gr_text "Made by\nElena\nAdi\n"
+	(gr_text "Made by\nElena &\nAdi\n"
 		(at 81.728598 62.5 0)
 		(layer "F.SilkS")
 		(uuid "00174f57-9032-4529-a926-21324331a056")
 		(effects
 			(font
-				(size 0.8 0.7)
-				(thickness 0.1)
+				(size 0.9 0.8)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -31122,8 +31112,9 @@
 		(uuid "82232aab-0496-4218-82f6-ed98c37dc241")
 		(effects
 			(font
-				(size 0.8 0.7)
-				(thickness 0.1)
+				(size 0.9 0.8)
+				(thickness 0.175)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
